@@ -1,0 +1,528 @@
+,annotator,label,stars,sentence1
+0,gj04,1,,The sailors rode the breeze clear of the rocks.
+1,gj04,1,,The weights made the rope stretch over the pulley.
+2,gj04,1,,The mechanical doll wriggled itself loose.
+3,cj99,1,,"If you had eaten more, you would want less."
+4,cj99,0,*,"As you eat the most, you want the least."
+5,cj99,0,*,"The more you would want, the less you would eat."
+6,cj99,0,*,"I demand that the more John eat, the more he pays."
+7,cj99,1,,"Mary listens to the Grateful Dead, she gets depressed."
+8,cj99,1,,"The angrier Mary got, the more she looked at pictures."
+9,cj99,1,,"The higher the stakes, the lower his expectations are."
+10,cj99,1,,"The more Fred is obnoxious, the less attention you should pay to him."
+11,cj99,1,,John was lots more obnoxious than Fred.
+12,cj99,1,,"The more people you give beer to, the more people get sick."
+13,cj99,0,*,"The more does Bill smoke, the more Susan hates him."
+14,cj99,1,,"The more pictures of him that appear in the news, the more embarrassed John becomes."
+15,cj99,1,,"Every senator seems to become more corrupt, as he talks to more lobbyists."
+16,bc01,0,*,Who does John visit Sally because he likes?
+17,bc01,1,,Marianne did not leave.
+18,bc01,1,,He could not have been working.
+19,bc01,1,,He can not have been working.
+20,bc01,1,,You will believe Bob.
+21,bc01,1,,John has not kissed Mary.
+22,bc01,1,,I said that never in my life had I seen a place like Bangor.
+23,bc01,0,*,Mickey looked up it.
+24,bc01,1,,There tended to be a lot of discussion.
+25,bc01,1,,John tried to be a good boy.
+26,bc01,1,,John is eager.
+27,bc01,1,,We want John to win.
+28,bc01,0,*,The box contained the ball from the tree.
+29,bc01,0,*,The tube was escaped by gas.
+30,bc01,1,,Water bubbled up out of the kettle.
+31,bc01,1,,The tub leaked water.
+32,bc01,0,*,What the water did to the bottle was fill it.
+33,bc01,0,*,What the water did to the whole bottle was fill it.
+34,bc01,1,,The tank leaked the fluid free.
+35,bc01,1,,John lay the ball in the box.
+36,bc01,1,,John owns the book.
+37,bc01,1,,We persuaded Mary to leave and Sue to stay.
+38,bc01,1,,"Most people probably consider, even though the courts didn't actually find, Klaus guilty of murder."
+39,bc01,0,*,Mary beautifully plays the violin.
+40,bc01,1,,"Clearly, John probably will immediately learn French perfectly."
+41,bc01,0,*,Sue gave to Bill a book.
+42,bc01,1,,The men will all leave.
+43,bc01,1,,John went home.
+44,bc01,0,*,They represented seriously to the dean Mary as a genuine linguist.
+45,bc01,0,*,Us love they.
+46,bc01,1,,It is nice to go abroad.
+47,bc01,0,*,Mary intended John to go abroad.
+48,bc01,1,,I remembered having kissed Mary.
+49,bc01,1,,"I can't believe Fred won't, either."
+50,bc01,1,,"John wants to read Fred's story, and I also want to."
+51,bc01,0,*,"We wanted to invite someone, but we couldn't decide who to."
+52,bc01,1,,"Mary will read Fred's story, and Joe will read Holly's."
+53,bc01,1,,"Mary claimed that eating cabbage, Holly shouldn't."
+54,bc01,0,*,Mary came to be introduced by the bartender and I also came to be.
+55,bc01,1,,"If I can, I will work on it."
+56,bc01,1,,"Joe's neuroses bother his patrons, and Sally does too."
+57,bc01,0,*,"I know which book José didn't read for class, and which book Lilly did it for him."
+58,bc01,0,*,"This is the book which Bob reviewed, and this is the one which Fred won't do it."
+59,bc01,1,,"I know which book Mag read, and which book Bob said that you hadn't."
+60,bc01,0,?*,"I know which book Mag read, and which book Bob read my report that you hadn't."
+61,bc01,1,,I'm sure I would like him to eat fruit more than I would cookies.
+62,bc01,1,,Rusty talked about himself only after Mary did talk about him.
+63,bc01,1,,Fred talked about everything before Rusty did talk about something.
+64,bc01,1,,John often meets Mary.
+65,bc01,0,*,The problem perceives easily.
+66,bc01,1,,A hundred men surrounded the fort.
+67,bc01,1,,We elected me.
+68,bc01,0,*,Which report that John was incompetent did he submit?
+69,bc01,1,,Mary has always preferred lemons to limes.
+70,r-67,1,,He let the cats which were whining out.
+71,r-67,1,,What did Bill buy?
+72,r-67,1,,Mary saw the boy walking toward the railroad station.
+73,r-67,0,*,A proof that the claim had been made was given that John had lied.
+74,r-67,1,,He attributed to a short circuit which was caused by an overloaded transducer the fire which destroyed most of my factory.
+75,r-67,0,?*,The mayor regarded as being absurd the proposal to build a sidewalk from Dartmouth to Smith.
+76,r-67,0,?*,I want that Bill left to remain a secret.
+77,r-67,0,*,I know a man who Tom drives as drives.
+78,r-67,0,*,"Drowning cats, which is against the law, are hard to rescue."
+79,r-67,1,,Muriel said nothing else than that she had been insulted.
+80,r-67,0,*,Himself is understood by Rutherford.
+81,r-67,1,,I feel that Arch will show up.
+82,r-67,0,*,The proof this set is recursive is difficult.
+83,r-67,0,*,The madrigals which Henry plays the lute and sings sound lousy.
+84,r-67,1,,"Tom picked these grapes, and I washed some turnips, and Suzie will prepare these grapes."
+85,r-67,1,,Where did you go and who ate what?
+86,r-67,0,*,Which boy's did we elect guardian's employer president?
+87,r-67,1,,How sane is Peter?
+88,r-67,1,,I live at the place where Route 150 crosses the River and my dad lives at the place where Route 150 crosses the Hudson River too.
+89,r-67,0,*,I live at the place where Route 150 crosses the Hudson River and my dad lives at it too.
+90,r-67,1,,Who is she trying to make up to now?
+91,r-67,0,*,Wind was gotten of a plot to negotiate an honorable end to the war in Vietnam.
+92,r-67,1,,Mike talked about politics yesterday to my friends.
+93,r-67,1,,It was expected by the reporters that the principal would fire some teacher.
+94,r-67,0,*,Which hat did Mike quip that she never wore?
+95,r-67,0,*,Which girl did Mike quip never wore this hat?
+96,r-67,1,,We donated wire for the convicts to build cages with.
+97,r-67,0,*,I won't have some money.
+98,r-67,1,,Do you believe the claim that somebody was looking for something?
+99,r-67,1,,I won't ask you to believe that he tried to force me to give her any money.
+100,r-67,1,,That Sam sometimes didn't sleep must have pleased somebody.
+101,r-67,1,,I talked to Winston about himself.
+102,r-67,1,,"That the fuzz wanted him worried John, but that the fuzz wanted her didn't worry Mary."
+103,r-67,1,,I'll work on it if Sam will be working on it.
+104,r-67,1,,I'll work on it if I can.
+105,r-67,0,*,Here's a knife with which for you to cut up the onions.
+106,r-67,1,,"Fluffy is sick, which not everybody knows."
+107,r-67,1,,Maxwell is quite a doctor.
+108,r-67,0,*,"The younger woman might have been tall and, and the older one definitely was, blond."
+109,r-67,1,,"Sally is tall, and may be blond, and Sheila is short, and definitely is, blond."
+110,r-67,1,,I have to try to finish grading some papers.
+111,r-67,0,*,The socks are ready for for you to put on to be planned.
+112,r-67,1,,It is easy to play sonatas on this violin.
+113,r-67,1,,This violin is difficult to play sonatas on.
+114,r-67,0,*,My mother is easy to please my father and.
+115,r-67,1,,"Poor Bill, it had started to rain and he had no umbrella."
+116,r-67,0,?*,"That the cops spoke to the janitor about it yesterday is terrible, that robbery."
+117,r-67,0,*,"Every student, and he wears socks, is a swinger."
+118,r-67,1,,That girl was given my binoculars by him.
+119,r-67,1,,Bill didn't allege that Roger had eaten anything.
+120,r-67,1,,Nobody who hates to eat anything should work in a delicatessen.
+121,r-67,1,,Everybody around here who ever buys anything on credit talks in his sleep.
+122,r-67,0,*,I can't remember the name of somebody who had misgivings.
+123,r-67,0,*,"No writer, and no playwright, meets in Vienna."
+124,r-67,0,*,"No writer, nor any playwright, meets in Vienna."
+125,r-67,1,,That you will marry any student is not certain.
+126,rhl07,1,,Felicia kicked the ball off the bench.
+127,rhl07,1,,I sent the package halfway around the world.
+128,rhl07,0,*,Sam gave the ball out of the basket.
+129,rhl07,0,*,Sam offered the ball out of the basket.
+130,rhl07,1,,Park Square has a festive air.
+131,rhl07,1,,The worker will have a job.
+132,rhl07,0,*,No one can forgive that comment to you.
+133,rhl07,1,,"We launched the rocket to the moon, but it blew up before it got there."
+134,rhl07,1,,"Sarah promised Catherine her old car, but then gave it to her son instead."
+135,rhl07,0,*,I lent the book partway to Tony.
+136,l-93,1,,The farmer loaded the cart with apples.
+137,l-93,0,*,The farmer dumped the cart with apples.
+138,l-93,1,,Martha carved the baby a toy out of wood.
+139,l-93,1,,The bread cuts easily.
+140,l-93,0,*,Janet broke Bill on the finger.
+141,l-93,1,,Janet broke the cup.
+142,l-93,1,,The visitor rang the bell.
+143,l-93,1,,We pulled free.
+144,l-93,1,,That movie always shocks people.
+145,l-93,1,,That movie always shocks.
+146,l-93,0,*,Sharon came the room.
+147,l-93,1,,Bill sent a package to Tom.
+148,l-93,1,,That acorn will grow into an oak tree.
+149,l-93,1,,He turned into a frog.
+150,l-93,1,,I mixed the sugar into the butter.
+151,l-93,0,*,Brian threw the fence with the stick.
+152,l-93,1,,Mira condemned Terry for the accident.
+153,l-93,1,,We investigated the area for bombs.
+154,l-93,1,,I sensed his eagerness.
+155,l-93,0,*,They praised the dedication in the volunteers.
+156,l-93,1,,The earth was believed to be round.
+157,l-93,1,,Sarah smiled a charming smile.
+158,l-93,1,,Sandra beamed a cheerful welcome.
+159,l-93,1,,You've really lived it up.
+160,l-93,0,*,Paperback books lift onto the table easily.
+161,l-93,0,*,The books lifted onto the table.
+162,l-93,1,,Jessica loaded boxes under the wagon.
+163,l-93,1,,Jessica loaded boxes on the wagon.
+164,l-93,0,*,Jessica crammed boxes at the truck.
+165,l-93,0,*,Lora buttered at the toast.
+166,l-93,1,,Carla shoveled the walk.
+167,l-93,1,,Nora sent the book.
+168,l-93,1,,Nora sent Peter the book.
+169,l-93,1,,Carla slid the book.
+170,l-93,0,*,Carla slid at the book.
+171,l-93,1,,Amanda carried the package to Pamela.
+172,l-93,0,*,Packages drive easily to New York.
+173,l-93,0,*,The chair pushed.
+174,l-93,1,,We offered a job to her.
+175,l-93,0,*,A job offered.
+176,l-93,1,,Brown presented a plaque to Jones.
+177,l-93,1,,Carmen bought Mary a dress.
+178,l-93,1,,Carmen obtained the spare part at the hardware store.
+179,l-93,0,*,Michelle kept the desk with the papers.
+180,l-93,1,,Frances hid the presents in the drawer.
+181,l-93,1,,The needle poked the cloth.
+182,l-93,1,,Carrie touched that cat.
+183,l-93,0,*,Herman whipped the sugar and the cream.
+184,l-93,1,,Linda taped the picture to the wall.
+185,l-93,1,,Linda taped the picture onto the wall.
+186,l-93,1,,The child and her mother clung together.
+187,l-93,1,,This flyer and that flyer differ.
+188,l-93,0,*,This flyer and that flyer differ apart.
+189,l-93,0,*,The jeweller scribbled the contract with his name.
+190,l-93,1,,The gardener grew that acorn into an oak tree.
+191,l-93,0,*,I shaped a loaf.
+192,l-93,0,*,The children amused.
+193,l-93,1,,Susan whispered the news.
+194,l-93,1,,Susan whispered at Rachel.
+195,l-93,1,,Ellen said that melons were selling well.
+196,l-93,0,*,Ellen said about the present conditions.
+197,l-93,1,,Ellen warned Helen against skating on thin ice.
+198,l-93,1,,Cynthia nibbled on the carrot .
+199,l-93,0,*,Cynthia chewed.
+200,l-93,1,,Paul laughed at Mary.
+201,l-93,0,*,Linda winked her lip.
+202,l-93,0,*,My heart is pounding me.
+203,l-93,1,,Sharon fainted from hunger.
+204,l-93,1,,The witch poisoned the children.
+205,l-93,1,,A grandfather clock ticked in the hallway.
+206,l-93,0,*,I squeaked the door.
+207,l-93,1,,Over the fire there bubbled a fragrant stew.
+208,l-93,1,,Soaring temperatures are predicted for this weekend.
+209,l-93,0,*,The fort fluttered with many flags.
+210,l-93,1,,The voices echoed in the hall.
+211,l-93,1,,The stream twists through the valley.
+212,l-93,0,*,There presented itself a wonderful opportunity yesterday.
+213,l-93,1,,A wonderful opportunity presented itself to him yesterday.
+214,l-93,1,,Out of the box jumped a little white rabbit.
+215,l-93,1,,Penny skated around the rink.
+216,l-93,1,,Jackie accompanied Rose.
+217,ks08,0,*,many information was provided.
+218,ks08,0,*,John offers many advice.
+219,ks08,1,,The cake that Jones got was more delicious than the one that Smith got.
+220,ks08,1,,We recommend to eat less cake and pastry.
+221,ks08,1,,I saw that gas can explode.
+222,ks08,1,,He washed her.
+223,ks08,0,*,Wash you!
+224,ks08,0,*,They have no in.
+225,ks08,0,*,Some my jobs are in jeopardy.
+226,ks08,0,*,It was the policeman met that several young students in the park last night.
+227,ks08,1,,did the policeman meet in the park?
+228,ks08,1,,John put old books in the box.
+229,ks08,0,*,The monkeys proud of their leader.
+230,ks08,0,*,John sounded very.
+231,ks08,1,,I don't know if I should agree.
+232,ks08,1,,John bought a book on the table.
+233,ks08,1,,John called the president a fool.
+234,ks08,1,,I forgot how good beer tastes.
+235,ks08,1,,This teacher is a genius.
+236,ks08,0,*,A good friend is remained to me by him.
+237,ks08,1,,John ate his noodle quietly.
+238,ks08,1,,A smith hammered the metal.
+239,ks08,1,,Sandy removed her ballet shoes.
+240,ks08,1,,This week will be a difficult one for us.
+241,ks08,1,,Benny worked in a shoe factory when he was a student.
+242,ks08,1,,Everyone hoped that she would sing.
+243,ks08,1,,This proved a decisive factor.
+244,ks08,1,,The crocodile devoured the doughnut.
+245,ks08,1,,John is afraid of Bill.
+246,ks08,0,*,John put under the bathtub.
+247,ks08,1,,John placed Kim behind the garage.
+248,ks08,0,*,Kim depends for Sandy.
+249,ks08,1,,John put the book in the box.
+250,ks08,1,,John taught English Syntax to new students.
+251,ks08,1,,John regards Bill as a good friend.
+252,ks08,0,*,Kim put in the box.
+253,ks08,1,,The chickens seem fond of the farmer.
+254,ks08,1,,The rules require that the executives be polite.
+255,ks08,0,*,That Fred was unpopular nominated Bill.
+256,ks08,1,,They were taking a hard look at possible FTA.
+257,ks08,0,*,John paid me against the book.
+258,ks08,1,,The committee will study the feasibility of setting up a national computer network.
+259,ks08,1,,We made them be rude.
+260,ks08,1,,"After reading the pamphlet, Judy threw it into the garbage can."
+261,ks08,0,*,Students studying English reads Conrad's Heart of Darkness while at university.
+262,ks08,1,,I read some of the book.
+263,ks08,1,,Most of the fruit is rotten.
+264,ks08,0,*,Neither of students failed.
+265,ks08,0,*,I drank some of water.
+266,ks08,1,,It is a golden hair.
+267,ks08,1,,The boy in the doorway waved to his father.
+268,ks08,1,,"That dog is so ferocious, it even tried to bite itself."
+269,ks08,0,*,He washed yourself.
+270,ks08,0,*,John is easy to please Kim.
+271,ks08,0,*,There seemed to be intelligent.
+272,ks08,1,,John tried to please Stephen.
+273,ks08,0,*,We believed John to be a fountain in the park.
+274,ks08,0,*,It tries to leave the country.
+275,ks08,1,,John tries to leave the country.
+276,ks08,1,,Under the bed seems to be a fun place to hide.
+277,ks08,0,*,There is believed to be sheep in the park.
+278,ks08,0,*,I hope to would study in France.
+279,ks08,1,,John can kick the ball.
+280,ks08,0,*,John will rain tomorrow.
+281,ks08,0,*,We expect there to will rain.
+282,ks08,1,,John was found in the office.
+283,ks08,0,*,Did the child be in the school?
+284,ks08,1,,It did not rain.
+285,ks08,1,,John wants not to leave the town.
+286,ks08,1,,"Mary likes to tour art galleries, but Bill hates to."
+287,ks08,1,,They needn't take this exam.
+288,ks08,1,,Ann may spend her vacation in Italy.
+289,ks08,1,,"They love to play golf, but I do not."
+290,ks08,1,,"George has spent a lot of money, hasn't he?"
+291,ks08,1,,"As a statesman, scarcely could he do anything worth mentioning."
+292,ks08,1,,We never found any of the unicorns.
+293,ks08,1,,One of Korea's most famous poets wrote these lines.
+294,ks08,1,,Somebody apparently struck the unidentified victim during the early morning hours.
+295,ks08,1,,The car was driven.
+296,ks08,1,,Ricky can be relied on.
+297,ks08,1,,The bed was slept in.
+298,ks08,0,*,A pound was weighed by the book.
+299,ks08,1,,Who do you think Tom saw?
+300,ks08,1,,he had spent five thousand dollars.
+301,ks08,0,*,Fed knows which politician her to vote for.
+302,ks08,1,,How did you guess that he fixed the computer?
+303,ks08,1,,The committee knows whose efforts to achieve peace the world should honor.
+304,ks08,0,*,Which house does your friend live?
+305,ks08,1,,the baker from whom I bought these bagels left.
+306,ks08,1,,I found the place where we can relax.
+307,ks08,0,*,Jack is the person with whom Jenny fell in love with.
+308,ks08,1,,There is a bench to sit on.
+309,ks08,1,,I met the man who grows peaches.
+310,ks08,1,,Which topic did you choose without getting his approval?
+311,ks08,0,*,Which topic did you get bored because Mary talked about?
+312,ks08,1,,That is the reason why he resigned.
+313,ks08,1,,It bothers me that John coughs.
+314,ks08,1,,To please John is easy.
+315,ks08,1,,Kim is eager to please Tom.
+316,ks08,1,,That we invaded Iraq really bites.
+317,ks08,1,,It annoys me that Fido barks.
+318,ks08,0,*,Who achieved the best result was Angela.
+319,ks08,1,,It was the peasant girl who got it.
+320,ks08,1,,That kind of person is hard to find anyone to look after.
+321,kl93,1,,A sick owl doesn't hunt mice.
+322,kl93,1,,Each candidate who has interest in semantics will be admitted to the department.
+323,kl93,1,,Each author whose contribution is written in any language other than English will provide a summary in English.
+324,kl93,1,,I'm sure we even got these tickets!
+325,kl93,1,,I'm even sure we got these tickets!
+326,kl93,1,,It's not because I have any sympathy for urban guerillas that I helped him.
+327,kl93,1,,It isn't because Sue said anything bad about me that I'm angry.
+328,b_82,0,*,"That he was hungry, John whined."
+329,b_82,0,*,I gave Mary after the party a book.
+330,b_82,0,*,"Because she's so pleasant, as for Mary I really like her."
+331,b_82,1,,"Though he may hate those that criticize Carter, it doesn't matter."
+332,b_82,1,,With no job would John be happy.
+333,b_73,1,,I have much of the manuscript left to type.
+334,b_73,1,,He's a more reliable man.
+335,b_73,0,*,Any trouble is what I don't want.
+336,b_73,1,,They may grow as high as bamboo.
+337,b_73,1,,Some of them made as many errors as 20.
+338,c_13,0,*,Sally kissed himself.
+339,c_13,1,,Drew believes I think Rosie loves magazine ads.
+340,c_13,1,,"Dave, Dan, Erin, Jaime, and Alina left."
+341,c_13,1,,"Hopefully, we'll make it through the winter without snow."
+342,c_13,0,*,Blue leather shows herself that Betsy is pretty.
+343,c_13,1,,Gwen hit the baseball.
+344,c_13,0,*,I hit that you knew the answer.
+345,c_13,1,,I've lost my wallet or I've lost my mind.
+346,c_13,1,,It was a brand new car that he bought.
+347,c_13,1,,He likes cookies and he hates crumb cake.
+348,c_13,1,,They chased the man with the car.
+349,c_13,1,,I didn't have a red cent.
+350,c_13,0,*,the book of poems and from Blackwell takes a very long time to read.
+351,c_13,1,,the one with a red cover takes a very long time to read.
+352,c_13,1,,John has a fear of dogs.
+353,c_13,0,*,The building's the roof is leaking.
+354,c_13,0,*,the panther's the coat is dark black.
+355,c_13,1,,Colin asked if they could get a mortgage.
+356,c_13,1,,The man I saw get into the cab robbed the bank.
+357,c_13,1,,I know you eat asparagus.
+358,c_13,1,,John's drum will always bother me.
+359,c_13,1,,An evil thought struck Dave.
+360,c_13,1,,In the classroom John put the book on the table.
+361,c_13,1,,Phillip gave the medal to the soldier.
+362,c_13,0,*,Heidi thinks that Andy to eat salmon flavored candy bars.
+363,c_13,1,,Heidi thinks that Andy should eat salmon flavored candy bars.
+364,c_13,1,,He danced.
+365,c_13,0,*,Did Calvin his homework?
+366,c_13,1,,Sylvia was slapping Jeff upside the head in martial arts class.
+367,c_13,0,*,"If I am a rich man, I'd buy a diamond ring."
+368,c_13,1,,"If he were a rich man, he'd buy a diamond ring."
+369,c_13,1,,John is likely to leave.
+370,c_13,1,,The manager laughed.
+371,c_13,0,*,Was sunk.
+372,c_13,1,,Who did you think kissed the gorilla?
+373,c_13,1,,Have you seen my model airplane collection?
+374,c_13,1,,It seems that Lucy was mugged.
+375,c_13,1,,I ate a salad that was filled with lima beans.
+376,c_13,1,,There were four men arriving at the station when I pulled up.
+377,c_13,1,,Jean is reluctant to dance.
+378,c_13,1,,I want her to dance.
+379,c_13,1,,Jean persuaded Robert.
+380,c_13,1,,Jean wants Bill to do the Macarena.
+381,c_13,1,,The children admire their mother.
+382,c_13,1,,Who has Peter talked with?
+383,c_13,1,,Heidi likes her violin.
+384,c_13,0,*,John thinks that Mary loves himself.
+385,c_13,1,,Which pictures of himself does John like?
+386,d_98,1,,Any owl hunts mice.
+387,d_98,0,*,Any man didn't eat dinner.
+388,d_98,1,,A pilot could be flying this plane.
+389,d_98,1,,"Everybody who attended last week's huge rally, whoever they were, signed the petition."
+390,d_98,1,,Anybody who attended last week's huge rally signed the petition.
+391,d_98,1,,"Any tiger has orange fur, marked with black stripes."
+392,d_98,1,,"Any albino tiger has orange fur, marked with black stripes."
+393,d_98,1,,You must pick any flower you see.
+394,d_98,1,,Any pilot on duty today could be flying this plane.
+395,d_98,0,*,"You may pick every flower, but leave a few for Mary."
+396,g_81,1,,The Dodgers beat the Red Sox and were beaten by the Giants.
+397,g_81,1,,In which car was the man seen?
+398,g_81,1,,The man who Mary loves and Sally hates computed my tax.
+399,g_81,0,*,The kennel which Mary made and Fido sleeps has been stolen.
+400,g_81,1,,Tom said he would and Bill actually did eat a raw eggplant.
+401,m_02,1,,The wealthy young man bought that piano for his secret fiancée.
+402,m_02,1,,The dog stole the turkey.
+403,m_02,1,,a tall building.
+404,m_02,1,,This building is tall.
+405,m_02,1,,I like the book which you gave me.
+406,m_02,1,,Captain Wentworth wrote a letter to Anne Elliott.
+407,m_02,1,,She asked was Alison coming to the party.
+408,m_02,1,,They realised that never had Sir Thomas been so offended.
+409,m_02,1,,Fanny regretted having to talk to Aunt Norris.
+410,m_02,1,,"Knowing the country well, he took a short cut."
+411,m_02,1,,He left the train with somebody else's wallet in his pocket.
+412,m_02,1,,Magnus went to Ireland.
+413,m_02,1,,Who did John send the book?
+414,m_02,1,,The idea dismayed the Prime Minister that the Dome was dull.
+415,m_02,1,,Came right in he did without so much as a knock.
+416,m_02,1,,Harriet admired Mr Knightley.
+417,m_02,1,,The book is boring.
+418,m_02,1,,Ethel wishes to ask you some awkward questions.
+419,m_02,1,,Emma made Harriet some food.
+420,m_02,1,,The window was broken with a hammer.
+421,m_02,1,,The fugitive lay motionless in order to avoid discovery.
+422,m_02,1,,The guard marched the prisoners round the yard.
+423,m_02,1,,Frank Churchill crossed the street.
+424,m_02,1,,Emma and Harriet were attacked yesterday.
+425,m_02,1,,Fiona might be here by 5 o'clock.
+426,sgww85,1,,I am both expecting to get the job and of the opinion that it is a desirable one.
+427,sgww85,1,,Pat was awarded the Golden Fleece Award and very upset about it.
+428,sgww85,0,*,Kim alienated cats and beating his dog.
+429,sgww85,1,,They knew that pictures of each other would be on sale.
+430,sgww85,0,*,Which article did Terry file papers without reading?
+431,sgww85,1,,I want to try and buy some whiskey.
+432,sgww85,0,*,She goes and buying some whiskey.
+433,sgww85,0,*,Kim and Terry is happy.
+434,sgww85,1,,Kim gave a dollar to Bobbie and a dime to Jean.
+435,sks13,1,,This girl in the red coat will put a picture of Bill in the mailbox and on your desk before tomorrow.
+436,sks13,0,*,"Put a picture of Bill on your desk before tomorrow, this girl in the red coat will put a picture of Bill on your desk before tomorrow."
+437,sks13,0,*,"Picture of Bill, this girl in the red coat will put a picture of Bill on your desk before tomorrow."
+438,sks13,1,,Ann bought a first edition of Richard III for $1000.
+439,sks13,1,,John became deadly afraid of flying.
+440,sks13,1,,What John promised is to be gentle.
+441,sks13,1,,Henri wants to buy which books about cooking?
+442,sks13,1,,I will fix the computer for Carol.
+443,sks13,1,,Smith loaned a valuable collection of manuscripts to the library.
+444,sks13,1,,The paper is cut by Mary.
+445,sks13,1,,It was from six to nine or it took place from six to nine.
+446,sks13,1,,"Suddenly, there arrived two inspectors from the INS."
+447,sks13,1,,"The soup cooks, thickens."
+448,sks13,1,,I gave money to the charity.
+449,sks13,1,,John asked.
+450,sks13,1,,I saw even the student.
+451,sks13,0,*,John whispered Mary left.
+452,sks13,0,*,Mary wonders that Bill will come.
+453,sks13,0,*,Sophie will theater.
+454,sks13,1,,John finished the cake and drank the lemonade.
+455,sks13,0,*,Herself likes Mary's mother.
+456,sks13,1,,Each of the boys fought with some of the other boys.
+457,sks13,0,*,John's mother likes himself.
+458,sks13,0,*,Mary revealed himself to John.
+459,sks13,1,,Mary believes that Bill saw himself.
+460,sks13,0,*,John heard that they criticized themselves.
+461,sks13,1,,Mary thinks that she is smart.
+462,sks13,1,,Henry found that Bill is sad.
+463,sks13,1,,John considers himself proud of Mary.
+464,sks13,0,*,You should sit before there.
+465,sks13,1,,There is a nurse available.
+466,sks13,0,*,Everyone hopes everyone to sleep.
+467,sks13,1,,Everyone hopes that he will sleep.
+468,sks13,0,*,"Only Churchill remembered Churchill giving the Blood, Sweat and Tears speech."
+469,sks13,1,,John promise Mary to shave himself.
+470,sks13,1,,John convinced Bill that Mary should sleep.
+471,sks13,0,*,I saw Bill while you did so Mary.
+472,sks13,0,*,What Mary did Bill was give a book.
+473,ad03,1,,The bears sniffed
+474,ad03,1,,to steal talismans from witches is dangerous
+475,ad03,0,*,Anson demonized
+476,ad03,1,,You kicked yourselves
+477,ad03,1,,The book that I said that I'd never read.
+478,ad03,0,*,Anson demonized up the Khyber
+479,ad03,1,,It is not true that I might be going to the party.
+480,ad03,0,*,Kick you!
+481,ad03,1,,Jason persuaded the doctor to treat Medea
+482,ad03,1,,Who did you get an accurate description of?
+483,ad03,1,,The Peter we all like was at the party
+484,ad03,1,,The government's imposition of a fine.
+485,ad03,1,,Did Athena help us?
+486,ad03,1,,You wanted to meet the man I saw.
+487,ad03,1,,Anson demonized David every day
+488,ad03,1,,There is a programme about Euripides on a Radio 4 tonight?
+489,ad03,1,,Medea denied poisoning the phoenix.
+490,ad03,1,,The elixir was hidden in a hole in the ground
+491,ad03,1,,"Extremely frantically, Anson danced at Trade"
+492,ad03,0,*,What did you ask who Medea gave?
+493,ad03,1,,It's Anson that I like
+494,ad03,0,*,Medea tried the nurse to poison her children.
+495,ad03,1,,I felt that I know you.
+496,ad03,1,,Will he can do it?
+497,ad03,0,*,I ate that she was happy
+498,ad03,1,,Anson believed himself to be handsome.
+499,ad03,1,,We arrived about six o'clock
+500,ad03,0,*,Gilgamesh is having fought the dragon.
+501,ad03,0,*,Anson thought that himself was happy.
+502,ad03,1,,Fortunately Hermione passed biology
+503,ad03,1,,I might be not going to the party but washing my hair
+504,ad03,0,*,I thought he liked myself
+505,ad03,1,,The butler sent the poison to Dinah.
+506,ad03,1,,Jason happens to appear to seem to be sick.
+507,ad03,0,*,What did you ask who saw?
+508,ad03,1,,We linguists love to argue
+509,ad03,0,*,He can will go
+510,ad03,0,*,How fierce the battle?
+511,ad03,0,*,Which king did you ask which city invaded?
+512,ad03,1,,It is some disgruntled old pigs in those ditches that humans love to eat.
+513,ad03,1,,That banana is eating the monkey.
+514,ad03,1,,Burn them!
+515,ad03,1,,It stinks that Aphrodite is omnipotent.
+516,ad03,1,,Agamemnon seems to be a maniac
+517,ad03,1,,Will Anson come to the party?
+518,ad03,1,,I wondered who Medea had poisoned.
+519,ad03,0,*,I inquired when could we leave.
+520,ad03,1,,They kicked them
+521,ad03,0,*,The monkey is ate the banana
+522,ad03,0,*,I would like to could swim
+523,ad03,1,,I kicked myself
+524,ad03,0,*,The bookcase ran
+525,ad03,1,,I shaved myself.
+526,ad03,0,*,Anson became a muscle bound.

@@ -1,0 +1,528 @@
+,annotator,label,stars,sentence1
+0,gj04,1,,the clear The rode the rocks. of sailors breeze
+1,gj04,1,,pull over ropeey. the stretch weights The the made
+2,gj04,1,,. loose mechanical itselfgled w doll Therig
+3,cj99,1,,"you,. had want eaten you would If less more"
+4,cj99,0,*,"eat you most least the want the As, you."
+5,cj99,0,*,"would you eat more. The the, would you want less"
+6,cj99,0,*,"John more more the demand pays eat I the he, that."
+7,cj99,1,,",s she Dead. depressedful Mary G the listenrate to gets"
+8,cj99,1,,"she Mary gotg at more, an picturesrier. the looked The"
+9,cj99,1,,"higher expectations are. lower stakes, the The his the"
+10,cj99,1,,"the lessxious himno, shouldb o. pay The is more you to attention Fred"
+11,cj99,1,,##b lots Fredno John. was than more oxious
+12,cj99,1,,"give, people get people to the beer The. sick more you more"
+13,cj99,0,*,"The does him Bill smoke, hates more. more Susan the"
+14,cj99,1,,"that more the. of the John embarrassed news The him pictures becomes in more appear,"
+15,cj99,1,,"Every more talksists to seems as corrupt more senator become to. lobby he,"
+16,bc01,0,*,Who visit likes? John because Sally does he
+17,bc01,1,,Marianne did leave. not
+18,bc01,1,,not been He working have could.
+19,bc01,1,,not have working He can been.
+20,bc01,1,,will You believe. Bob
+21,bc01,1,,not John Mary. kissed has
+22,bc01,1,,had Bangor never my a I in place seen. like said life I that
+23,bc01,0,*,looked up it. Mickey
+24,bc01,1,,of lot a discussion be. tended There to
+25,bc01,1,,good tried boy be John. a to
+26,bc01,1,,eager John. is
+27,bc01,1,,We want to. John win
+28,bc01,0,*,the ball contained from The box tree. the
+29,bc01,0,*,was gas escaped tube The. by
+30,bc01,1,,##le ofett. the k Water upd bubble out
+31,bc01,1,,tub water The. leaked
+32,bc01,0,*,it fill was did bottle What the. to the water
+33,bc01,0,*,the What the whole. to fill water it bottle did was
+34,bc01,1,,fluid tank the leaked free The.
+35,bc01,1,,lay ball the in. the John box
+36,bc01,1,,owns the. John book
+37,bc01,1,,to stay leave persuaded and Mary to. We Sue
+38,bc01,1,,"' actually consider the murder,., of courts guilty though didn even t find probably Most Klaus people"
+39,bc01,0,*,. the Mary plays beautifully violin
+40,bc01,1,,"probably, immediately learn French Clearly will John. perfectly"
+41,bc01,0,*,a Bill to Sue. book gave
+42,bc01,1,,men all leave. The will
+43,bc01,1,,. went home John
+44,bc01,0,*,linguist the seriously. as genuine to a Mary They represented dean
+45,bc01,0,*,love Us. they
+46,bc01,1,,. nice go to It is abroad
+47,bc01,0,*,Mary. to intended abroad go John
+48,bc01,1,,kissed I Mary having. remembered
+49,bc01,1,,"t t I'believe, Fred can won either. '"
+50,bc01,1,,"to'wants Fred, and I want John to story. s read also"
+51,bc01,0,*,"t wanted We to someone we to decide,. invite who but'couldn"
+52,bc01,1,,", read s Mary will and read Joe Fred '.'s will Holly story"
+53,bc01,1,,"Holly Mary 'bage,. cab eating shouldn t claimed that"
+54,bc01,0,*,by be also I to introduced. and came came be the Mary to bartender
+55,bc01,1,,". I can it I If, will on work"
+56,bc01,1,,"does s and'ses Joe too his bother Sally neuro patrons.,"
+57,bc01,0,*,"read class book for, did him which which Lilly it book know José for didn '. t I and"
+58,bc01,0,*,"which Fred is Bob this'it do the won. t one the reviewed which is This book and,"
+59,bc01,1,,"that read. Ma hadn book you know which, t which said and bookg'Bob I"
+60,bc01,0,?*,"t which book, Ma my and I hadng book which report read'know that Bob. read you"
+61,bc01,1,,more sure fruit cookies would to'eat m would than I him I. like I
+62,bc01,1,,about him Mary Rusty about only talked did himself. after talk
+63,bc01,1,,about everything Fred talked. talk before something Rusty about did
+64,bc01,1,,often John meets Mary.
+65,bc01,0,*,easily problem perceive The.s
+66,bc01,1,,men surrounded. the fort A hundred
+67,bc01,1,,me We. elected
+68,bc01,0,*,reportent thatpet Johncom? Which in he did submit was
+69,bc01,1,,. to always preferred limes Mary has lemons
+70,r-67,1,,##ing. w catshin the let He were which out
+71,r-67,1,,buy Bill did? What
+72,r-67,1,,boy station saw the the toward railroad. walking Mary
+73,r-67,0,*,John had was made the that been lied A that proof had. claim given
+74,r-67,1,,fire an wasloaded mostcer which the to over trans of short my a which factory. attributed by He caused circuit destroyeddu
+75,r-67,0,?*,to Dartmouth mayor Smith to build from being a regarded the absurd. sidewalk as The proposal
+76,r-67,0,?*,want I secret left. a Bill to remain that
+77,r-67,0,*,drives who a as know drives I Tom man.
+78,r-67,0,*,"rescue, hard cats law, Dring. againstown are is to which the"
+79,r-67,1,,##riel nothing insulted. than she Mu else had that been said
+80,r-67,0,*,is Rutherford by understood. Himself
+81,r-67,1,,will up Arch show. I feel that
+82,r-67,0,*,thisivecu rers proof. set is difficult The is
+83,r-67,0,*,##us therig.als and playsute sound Henry The l which loy mad sings
+84,r-67,1,,"##zie, these picked these grapessip prepare I and Su, Tom and. turn washed grapes some will"
+85,r-67,1,,who Where you? ate what did go and
+86,r-67,0,*,guardian s?'' elect boy president s Which did we employer
+87,r-67,1,,sa is Peter? Howne
+88,r-67,1,,the. and 150 at I the crosses live where River dad Route Hudson where place too at crosses place the Route 150 the River lives my
+89,r-67,0,*,dad and crosses too live the where 150 at Route. it Hudson I place at the lives my River
+90,r-67,1,,is trying? to now Who up to make she
+91,r-67,0,*,to Wind Vietnam gotten an of was the in honorable to a war end plot negotiate.
+92,r-67,1,,my politics friends. to about Mike talked yesterday
+93,r-67,1,,It. was expected fire that reporters some the the by principal would teacher
+94,r-67,0,*,she hat Whichui neverp Mike wore that q? did
+95,r-67,0,*,hat wore Mike? girl did qui Which neverp this
+96,r-67,1,,the We wires donated convict. to cage with fors build
+97,r-67,0,*,' t won have I some money.
+98,r-67,1,,believe that the something claim somebody for Do you? was looking
+99,r-67,1,,he that to to you won any I tried. me money'ask give her to believe t force
+100,r-67,1,,pleased That sometimes somebody sleep't must didn Sam have.
+101,r-67,1,,I himself. about to talked Winston
+102,r-67,1,,"her worried., fz didn that John wanted Thatz f'the worry but Mary the him wanted tuzuz"
+103,r-67,1,,on ll I'on. will Sam it it working work be if
+104,r-67,1,,it can I if ll on I work '.
+105,r-67,0,*,you for the on sions knife. which up'to Here cut with a
+106,r-67,1,,"everybody knowsffy which islu sick F., not"
+107,r-67,1,,a. quite Maxwell is doctor
+108,r-67,0,*,"have been tall the older younger, The definitely, blond was one woman and might and."
+109,r-67,1,,"Sally and blond, is is may tall and Sheila short. is, definitely be blond, and,"
+110,r-67,1,,have some I finish g to try.rading papers to
+111,r-67,0,*,be. are put to for socks The planned ready for on you to
+112,r-67,1,,. son play easys It violin onata to this is
+113,r-67,1,,violin Thiss on to son. difficultata play is
+114,r-67,0,*,My to mother father my easy please and. is
+115,r-67,1,,", he it had had no started rain Bill and umbrella Poor. to"
+116,r-67,0,?*,"That j terrible about spoke robbery, to copsanitor it that is the yesterday the."
+117,r-67,0,*,"wears student,, swing heer. a is and socks Every"
+118,r-67,1,,##s.ular was bin by That girl my given himoc
+119,r-67,1,,that anything eatenege t Roger all'Bill. had didn
+120,r-67,1,,eat delicate to should who a Nobodyssen anything. work in hates
+121,r-67,1,,on talks who his credit sleep Everybody anything buys around here ever in.
+122,r-67,0,*,had somebody I '.s name ofvings whogi can t remember mi the
+123,r-67,0,*,", writer in Vienna playwright. meets No and no,"
+124,r-67,0,*,", nor playwright Vienna No in,. any meets writer"
+125,r-67,1,,not any marry certain That student will you is.
+126,rhl07,1,,theia. the off Fe bench kicked balllic
+127,rhl07,1,,. around the halfway the world package sent I
+128,rhl07,0,*,gave basket the of the. Sam out ball
+129,rhl07,0,*,the of offered Sam out basket. the ball
+130,rhl07,1,,Square Parkestive a has f. air
+131,rhl07,1,,The have job. will a worker
+132,rhl07,0,*,you No forgive can one comment. to that
+133,rhl07,1,,"rocket. We the, got there but up it it to blew before moon launched the"
+134,rhl07,1,,"Sarah but. son her it Catherine to her promised gave, then car old instead"
+135,rhl07,0,*,lent.way the I Tony part book to
+136,l-93,1,,the apples. with The farmer cart loaded
+137,l-93,0,*,farmer dumped The cart the with. apples
+138,l-93,1,,a carved out wood of baby toy. Martha the
+139,l-93,1,,The cuts. easily bread
+140,l-93,0,*,broke the on Janet. Bill finger
+141,l-93,1,,. Janet the broke cup
+142,l-93,1,,visitor the rang bell The.
+143,l-93,1,,free. pulled We
+144,l-93,1,,Thats always. movie shock people
+145,l-93,1,,always. movie shocks That
+146,l-93,0,*,Sharon. the came room
+147,l-93,1,,a Bill Tom package. sent to
+148,l-93,1,,a will oak grow. an tree into Thatcorn
+149,l-93,1,,. He frog turned a into
+150,l-93,1,,the. mixed sugar into the I butter
+151,l-93,0,*,the fence. threw Brian stick the with
+152,l-93,1,,accident for the Terry Mira. condemned
+153,l-93,1,,. We investigated the for bombs area
+154,l-93,1,,. I hisness sensed eager
+155,l-93,0,*,They the dedication the. in volunteers praised
+156,l-93,1,,was The be round. to believed earth
+157,l-93,1,,smile. smiled Sarah a charming
+158,l-93,1,,Sandra cheerful. beamed welcome a
+159,l-93,1,,' it up ve lived You really.
+160,l-93,0,*,##back books easily the onto Paper table. lift
+161,l-93,0,*,the onto books. table lifted The
+162,l-93,1,,wagon under loaded Jessica boxes the.
+163,l-93,1,,boxes on Jessica wagon the loaded.
+164,l-93,0,*,##med boxes truck atram. the Jessica c
+165,l-93,0,*,. at toastraed Lo butter the
+166,l-93,1,,walk. the Carla shoveled
+167,l-93,1,,sent book Nora the.
+168,l-93,1,,book Peter Nora the sent.
+169,l-93,1,,book slid the. Carla
+170,l-93,0,*,at book Carla. slid the
+171,l-93,1,,package the Amanda Pamela to. carried
+172,l-93,0,*,to York Newages drive. Pack easily
+173,l-93,0,*,The. pushed chair
+174,l-93,1,,a We offered. her job to
+175,l-93,0,*,job A. offered
+176,l-93,1,,Brown Jones to plaque a. presented
+177,l-93,1,,. Mary a dress Carmen bought
+178,l-93,1,,the part obtained spare Carmen the store hardware at.
+179,l-93,0,*,the Michelle kept with desk. papers the
+180,l-93,1,,presents drawer hid the in the. Frances
+181,l-93,1,,needle The cloth poked. the
+182,l-93,1,,touched Carrie that cat.
+183,l-93,0,*,cream Herman the. the and whipped sugar
+184,l-93,1,,wall taped picture the the. Linda to
+185,l-93,1,,Linda onto wall the picture taped. the
+186,l-93,1,,clung her. mother together child The and
+187,l-93,1,,thater and differ flyer fly This.
+188,l-93,0,*,##er. apart differ and fly fly This thater
+189,l-93,0,*,the name Theri jewelbbledler with sc his contract.
+190,l-93,1,,##corn. intoer grew an a garden The oak that tree
+191,l-93,0,*,shapedaf a I. lo
+192,l-93,0,*,The amused. children
+193,l-93,1,,whispered Susan news. the
+194,l-93,1,,Susan at Rachel whispered.
+195,l-93,1,,said. that Ellen selling me were welllons
+196,l-93,0,*,. said the conditions Ellen present about
+197,l-93,1,,ice Ellen Helen warned skating. on thin against
+198,l-93,1,,Cynthia nibbled on car the.rot
+199,l-93,0,*,. Cynthia chewed
+200,l-93,1,,laughed Paul at. Mary
+201,l-93,0,*,winked lip her. Linda
+202,l-93,0,*,pounding My is. me heart
+203,l-93,1,,fromed hunger faint. Sharon
+204,l-93,1,,witch children. poisoned the The
+205,l-93,1,,the A hallwayicked grandfather clock in t.
+206,l-93,0,*,Iue. sq door theaked
+207,l-93,1,,there fire the bubble. stew a Overragrantd f
+208,l-93,1,,.aring So predicted this for weekend are temperatures
+209,l-93,0,*,fluttered. with many fort The flags
+210,l-93,1,,echoed in The voices hall the.
+211,l-93,1,,stream valley. the through twists The
+212,l-93,0,*,presented. a opportunity yesterday wonderful There itself
+213,l-93,1,,A wonderful opportunity yesterday presented itself him. to
+214,l-93,1,,little the box rabbit Out of white a jumped.
+215,l-93,1,,. Pennyd rink the skate around
+216,l-93,1,,Rose. accompanied Jackie
+217,ks08,0,*,. was provided many information
+218,ks08,0,*,. John many offers advice
+219,ks08,1,,got the delicious more Jones one that got cake that was The Smith. than
+220,ks08,1,,past cake We eat recommend and to less.ry
+221,ks08,1,,gas can that I explode saw.
+222,ks08,1,,He. washed her
+223,ks08,0,*,you Wash!
+224,ks08,0,*,have no in. They
+225,ks08,0,*,in Some myeoy. j jobs arepard
+226,ks08,0,*,policeman was park It the met in that last. several students young night the
+227,ks08,1,,? park in meet the policeman did the
+228,ks08,1,,. put in books John box the old
+229,ks08,0,*,proud leader their of The. monkeys
+230,ks08,0,*,. sounded very John
+231,ks08,1,,. should I't I agree don if know
+232,ks08,1,,on John table the a bought. book
+233,ks08,1,,called fool John the president a.
+234,ks08,1,,tastes how beer. forgot good I
+235,ks08,1,,genius a is. This teacher
+236,ks08,0,*,by remained. is A to him friend me good
+237,ks08,1,,no hisod quietly John.le ate
+238,ks08,1,,##mith hammer.ed the s metal A
+239,ks08,1,,removed. Sandy ballet her shoes
+240,ks08,1,,us difficult be This for a week one. will
+241,ks08,1,,a he worked shoe factory student in when. a Benny was
+242,ks08,1,,sing hoped that she Everyone. would
+243,ks08,1,,proved. decisive a factor This
+244,ks08,1,,Thevourrocodile de.nuted c the dough
+245,ks08,1,,John. of is afraid Bill
+246,ks08,0,*,John. bath under thetub put
+247,ks08,1,,placed John garage behind Kim the.
+248,ks08,0,*,Sandy depends. Kim for
+249,ks08,1,,the the. book box John in put
+250,ks08,1,,.yn English to Johnx new students taughtta S
+251,ks08,1,,regards John Bill. a as good friend
+252,ks08,0,*,. in put the Kim box
+253,ks08,1,,farmer seem of the chickens fond The.
+254,ks08,1,,executives be rules polite require that the. The
+255,ks08,0,*,unpopular Bill. That Fred was nominated
+256,ks08,1,,a hard They F taking. wereTA look at possible
+257,ks08,0,*,the book against. paid me John
+258,ks08,1,,##ibility the of settingeas The committee network will study national up. a f computer
+259,ks08,1,,We made them be. rude
+260,ks08,1,,"., reading the After can threw garbage Judy into it pamphlet the"
+261,ks08,0,*,while university s English at Conrad studying of Heart reads Darkness. Students '
+262,ks08,1,,book read the I. some of
+263,ks08,1,,Most the fruit of rotten is.
+264,ks08,0,*,of. failed students Neither
+265,ks08,0,*,. some I water drank of
+266,ks08,1,,. hair a golden is It
+267,ks08,1,,his in to waved The boy doorway. the father
+268,ks08,1,,"bite tried dogero to, f. itselfcious it so even That is"
+269,ks08,0,*,He washed yourself.
+270,ks08,0,*,is. John easy Kim to please
+271,ks08,0,*,be intelligent. There seemed to
+272,ks08,1,,to. John tried please Stephen
+273,ks08,0,*,in be. to park We a fountain believed John the
+274,ks08,0,*,tries. leave the to country It
+275,ks08,1,,to leave the. country John tries
+276,ks08,1,,place a the hide fun Under to. to seems bed be
+277,ks08,0,*,the sheep to be park is in There believed.
+278,ks08,0,*,in hope to would I study. France
+279,ks08,1,,ball the can. kick John
+280,ks08,0,*,will John tomorrow rain.
+281,ks08,0,*,to there will. We rain expect
+282,ks08,1,,office the in. John found was
+283,ks08,0,*,child? school in be the the Did
+284,ks08,1,,not It did rain.
+285,ks08,1,,to John. town the wants leave not
+286,ks08,1,,"Bill likes to. tour but hates galleries to, Mary art"
+287,ks08,1,,this take exam'needn They. t
+288,ks08,1,,vacation Italy may spend her in. Ann
+289,ks08,1,,"not play I love They,. do but golf to"
+290,ks08,1,,"hasn a'George, has? lot of he t money spent"
+291,ks08,1,,", he do statesman As a anything mentioning worth. scarcely could"
+292,ks08,1,,found never Weicorn the un ofs. any
+293,ks08,1,,. Korea wrote lines poets most s of these One'famous
+294,ks08,1,,Somebody early unidentified during morning. hours the apparently struck the victim
+295,ks08,1,,. was driven car The
+296,ks08,1,,be relied. on can Ricky
+297,ks08,1,,. slept The was bed in
+298,ks08,0,*,book A weighed the was by pound.
+299,ks08,1,,Who you? do Tom think saw
+300,ks08,1,,spent thousand he five had. dollars
+301,ks08,0,*,. politician vote her knows which Fed for to
+302,ks08,1,,you guess? that fixed did he How the computer
+303,ks08,1,,The to efforts. whose honor world committee the should knows peace achieve
+304,ks08,0,*,? friend live Which does your house
+305,ks08,1,,from whom bag. the b boughtelsaker I left these
+306,ks08,1,,we place can I the relax. where found
+307,ks08,0,*,love is fell in person with the whom. with Jack Jenny
+308,ks08,1,,is on a. There to sit bench
+309,ks08,1,,. who maneach the p I metes grows
+310,ks08,1,,you his did topic getting choose without approval? Which
+311,ks08,0,*,did bored? Which you get topic Mary because talked about
+312,ks08,1,,. is reason why he That the resigned
+313,ks08,1,,John cough It. that me botherss
+314,ks08,1,,. To please easy is John
+315,ks08,1,,eager to Kim. please Tom is
+316,ks08,1,,. Iraq we really bites That invaded
+317,ks08,1,,anssdo me It that Fi barknoy.
+318,ks08,0,*,the Who. achieved result was Angela best
+319,ks08,1,,was who got girl. It it the peasant
+320,ks08,1,,That. person of to look to hard is kind anyone find after
+321,kl93,1,,A sick mice t. hunt'doesn owl
+322,kl93,1,,to candidate the admitted interest in. departments Each will who be semantic has
+323,kl93,1,,is in contribution Each other. English provide any a language will summary than whose in author written English
+324,kl93,1,,even'we I these got! tickets sure m
+325,kl93,1,,' tickets I sure we! got these even m
+326,kl93,1,,##s him g because have that for s Iilla urban sympathy. I any helped not Ituer '
+327,kl93,1,,It t'Sue m bad anything. I about me that said angry because isn '
+328,b_82,0,*,"hungry whine he, Johnd That was."
+329,b_82,0,*,gave I Mary a after. book party the
+330,b_82,0,*,"., so s like Because Mary'she as really for I her pleasant"
+331,b_82,1,,"those'Carter critic Though itize, hate t matter that. may doesn he"
+332,b_82,1,,job. no happy John With would be
+333,b_73,1,,manuscript I much to have. of left the type
+334,b_73,1,,more s reliable man'a He.
+335,b_73,0,*,Any trouble want I don'is. t what
+336,b_73,1,,high as. They bamboo grow may as
+337,b_73,1,,20 errors Some many as them as of. made
+338,c_13,0,*,himself kissed. Sally
+339,c_13,1,,magazine Rosie think ads Drew I. loves believes
+340,c_13,1,,"Dan Erin left Jaime.,na and Ali,, Dave,"
+341,c_13,1,,"without'll snow we winter Hopefully the make, it through."
+342,c_13,0,*,shows Betsy leather. Blue that is herself pretty
+343,c_13,1,,. Gwen hit the baseball
+344,c_13,0,*,knew you the hit answer. that I
+345,c_13,1,,wallet lost I I'mind my or lost ve my. ve '
+346,c_13,1,,he was new brand bought a It. car that
+347,c_13,1,,hates cake cookies likes He and.rumb c he
+348,c_13,1,,car with the the chased man They.
+349,c_13,1,,t a I didn red have cent '.
+350,c_13,0,*,from Blackwell. and poems book very to the a takes time of read long
+351,c_13,1,,the with long. to a one a very read red takes time cover
+352,c_13,1,,dogs of a fear has John.
+353,c_13,0,*,roof s is The. the'building leaking
+354,c_13,0,*,the the s.'black coatther pan dark is
+355,c_13,1,,asked could. get if mortgage Colin they a
+356,c_13,1,,robbed I saw The into the bank man get the. cab
+357,c_13,1,,##agu you. eats know as Ipar
+358,c_13,1,,will'John s bother. drum me always
+359,c_13,1,,Dave evil struck. An thought
+360,c_13,1,,put. book the classroom In table on the the John
+361,c_13,1,,the soldier the. medal Phillip to gave
+362,c_13,0,*,thinks salmoned. flavor candy to Andy Heidi that eat bars
+363,c_13,1,,candy Heidi. eat Andy that flavor salmon bars shoulded thinks
+364,c_13,1,,. He danced
+365,c_13,0,*,homework Calvin his? Did
+366,c_13,1,,. was arts slapping Sylvia in class the Jeff upside martial head
+367,c_13,0,*,"' rich I a am, d diamond If man buy ring. I a"
+368,c_13,1,,"were diamond, he rich ring d'a. a buy he If man"
+369,c_13,1,,is John leave to. likely
+370,c_13,1,,The laughed. manager
+371,c_13,0,*,. Was sunk
+372,c_13,1,,did you?rilla kissed Who the think go
+373,c_13,1,,you my model seen airplane? Have collection
+374,c_13,1,,##ged Lucy seems It was that. mug
+375,c_13,1,,I a. l was with salad ate filled thatima beans
+376,c_13,1,,I when station four men There at the arriving pulled. were up
+377,c_13,1,,is to Jean reluctant. dance
+378,c_13,1,,. dance to want I her
+379,c_13,1,,persuaded. Robert Jean
+380,c_13,1,,Bill Jean the do. toarena Mac wants
+381,c_13,1,,admire The mother their children.
+382,c_13,1,,Peter? Who has with talked
+383,c_13,1,,likes. Heidi violin her
+384,c_13,0,*,that Mary. thinks loves himself John
+385,c_13,1,,pictures John Which? of himself does like
+386,d_98,1,,owl mice hunt Anys.
+387,d_98,0,*,man eat didn. dinner t Any '
+388,d_98,1,,be flying this plane could pilot A.
+389,d_98,1,,"who the. petition week rally attended, signed Everybody whoever they huge last s were, '"
+390,d_98,1,,signed week who last petition 'body the attended. rally huge s Any
+391,d_98,1,,"orange tiger. fur stripes Any, marked with has black"
+392,d_98,1,,"with stripes orange black.bino has tiger, marked fur al Any"
+393,d_98,1,,you any flower You. see must pick
+394,d_98,1,,pilot today. this flying could plane Any duty on be
+395,d_98,0,*,"may leave flower few You but a for, Mary pick every."
+396,g_81,1,,Giants The Red the and Sox. the by Dodgers beat were beaten
+397,g_81,1,,In the car? was seen which man
+398,g_81,1,,man tax loves who my. Sally com hates The Mary andputed
+399,g_81,0,*,Thedo Fil which sleep stolen ands Mary k been has madeenne.
+400,g_81,1,,raw did actually he wouldlant and Bill eatp. Tom said a egg
+401,m_02,1,,The that his piano for young man bought wealthy.cée fi secretan
+402,m_02,1,,the stole The turkey dog.
+403,m_02,1,,a building tall.
+404,m_02,1,,tall building is. This
+405,m_02,1,,me gave which book like the. you I
+406,m_02,1,,to Captain Anne. letter wrote Elliott Wentworth a
+407,m_02,1,,coming party She Alison to. was the asked
+408,m_02,1,,had Sir offended Thomas. They that never realised been so
+409,m_02,1,,talk having Fanny Norris regretted Aunt. to to
+410,m_02,1,,"well short the cut Knowing a took. country, he"
+411,m_02,1,,else wallet'somebody He pocket. with s train his in the left
+412,m_02,1,,. went Ireland Magnus to
+413,m_02,1,,book send did the John Who?
+414,m_02,1,,Prime the dismay the The Dome that dull. was Minister ideaed
+415,m_02,1,,as did so Came a he knock. much without right in
+416,m_02,1,,Knight. Mr admired Harrietley
+417,m_02,1,,The. book boring is
+418,m_02,1,,. ask awkward some to Ethel questions wishes you
+419,m_02,1,,made Harriet Emma. food some
+420,m_02,1,,broken was window hammer a with The.
+421,m_02,1,,inug f lay discovery order. The avoid toitive motionless
+422,m_02,1,,prisoners The the yard. the round guard marched
+423,m_02,1,,crossed street Frank the Churchill.
+424,m_02,1,,attacked yesterday were. Harriet and Emma
+425,m_02,1,,clock. 5 might o'be Fiona here by
+426,sgww85,1,,opinion a am get one. to that of job is and both desirable I it the expecting the
+427,sgww85,1,,and was Award thelee upset it Golden awardedce Pat F. about very
+428,sgww85,0,*,Kimated alien and his. beating dog cats
+429,sgww85,1,,would other knew sale They each be of. on pictures that
+430,sgww85,0,*,without file reading article Which papers Terry did?
+431,sgww85,1,,buy. to try want whiskey and I some
+432,sgww85,0,*,goes. some buying and whiskey She
+433,sgww85,0,*,happy Terry. and is Kim
+434,sgww85,1,,gave Kimbie dollar Bob Jean a. and to to ae dim
+435,sks13,1,,a Thisbox put your the red coat the picture tomorrow in. will Bill and mail in of on before desk girl
+436,sks13,0,*,"on of picture girl desk a this Put your before, desk red tomorrow a Bill the put of coat will Bill your on picture before. tomorrow in"
+437,sks13,0,*,". coat red will your put this Bill the Bill Picture a, girl of desk on tomorrow of picture before in"
+438,sks13,1,,Richard $ edition III 1000 Ann of. bought a for first
+439,sks13,1,,deadly John of. became afraid flying
+440,sks13,1,,to. is John What be gentle promised
+441,sks13,1,,which books cooking? to Henri about wants buy
+442,sks13,1,,. for will Carol the fix I computer
+443,sks13,1,,Smith valuable library loaned a manuscripts. of collection to the
+444,sks13,1,,by. The is Mary paper cut
+445,sks13,1,,nine to it from or place six from. It was nine took to six
+446,sks13,1,,"inspector two IN,s Suddenly. from there theS arrived"
+447,sks13,1,,"##ens cook soup, Thes thick."
+448,sks13,1,,money gave. the to charity I
+449,sks13,1,,asked. John
+450,sks13,1,,student even the. I saw
+451,sks13,0,*,left John Mary whispered.
+452,sks13,0,*,. will Mary wonders that come Bill
+453,sks13,0,*,will theater Sophie.
+454,sks13,1,,and lemonade the cake drank the finished. John
+455,sks13,0,*,##self mother likes '. s Mary Her
+456,sks13,1,,other boys of the Each boys fought. of the some with
+457,sks13,0,*,' himself likes s mother. John
+458,sks13,0,*,John revealed to. himself Mary
+459,sks13,1,,. Mary that believes himself Bill saw
+460,sks13,0,*,they that criticized John themselves. heard
+461,sks13,1,,thinks that Mary. smart is she
+462,sks13,1,,Bill sad Henry that found is.
+463,sks13,1,,considers himself Mary of. proud John
+464,sks13,0,*,before You there sit should.
+465,sks13,1,,There is. nurse available a
+466,sks13,0,*,everyone hopes Everyone sleep to.
+467,sks13,1,,Everyone he will hopes sleep. that
+468,sks13,0,*,"remembered, Blood the. and Churchill giving Tears speech Sweat Only Churchill"
+469,sks13,1,,##have Mary. John to himself promise s
+470,sks13,1,,John that convinced Mary sleep should. Bill
+471,sks13,0,*,did while so Bill saw you Mary. I
+472,sks13,0,*,. Mary did book Bill was give What a
+473,ad03,1,,The sniffed bears
+474,ad03,1,,steallis witches to dangerous is from tamans
+475,ad03,0,*,##sonized demon An
+476,ad03,1,,You kickedelves yours
+477,ad03,1,,I d read I The never that'book that. said
+478,ad03,0,*,demon Anhy upber Kizedson the
+479,ad03,1,,that is true party might be It to going not I the.
+480,ad03,0,*,you Kick!
+481,ad03,1,,the Jason doctor Me to treat persuadeddea
+482,ad03,1,,? you did get Who accurate description of an
+483,ad03,1,,party The all Peter we like the was at
+484,ad03,1,,imp a of s. 'ition The government fineos
+485,ad03,1,,help Athena? us Did
+486,ad03,1,,I saw to. meet man wanted the You
+487,ad03,1,,Anson day David everyized demon
+488,ad03,1,,##pid a onuri tonight There a Radio is 4 E programme?es about
+489,ad03,1,,Me denieddea the poisoning.nihoex p
+490,ad03,1,,hidden was the The el hole groundir a in inix
+491,ad03,1,,"##lyson frantically An at Extreme Trade danced,"
+492,ad03,0,*,did What gave ask you Me whodea?
+493,ad03,1,,that Itson like I An s '
+494,ad03,0,*,childrendea the. to nurse tried poison Me her
+495,ad03,1,,that I you. I know felt
+496,ad03,1,,he? Will it can do
+497,ad03,0,*,she was ate that happy I
+498,ad03,1,,handsome believedson. himself be to An
+499,ad03,1,,six o arrived clock'about We
+500,ad03,0,*,is Gil thegame dragon having fought.sh
+501,ad03,0,*,happy An wasson thought that himself.
+502,ad03,1,,Her Fortunatelymio biologyne passed
+503,ad03,1,,might my but be not hair I party washing to the going
+504,ad03,0,*,liked he thought I myself
+505,ad03,1,,Theah. butler Din sent the to poison
+506,ad03,1,,sick. be appear seem to to happens to Jason
+507,ad03,0,*,who? you ask saw did What
+508,ad03,1,,to argue linguist loves We
+509,ad03,0,*,will He can go
+510,ad03,0,*,battle fierce the? How
+511,ad03,0,*,ask did city which you king? invaded Which
+512,ad03,1,,It tog eat humanss ines. pigs oldrun those is lovetled ditch some that di
+513,ad03,1,,is eating. That banana the monkey
+514,ad03,1,,! them Burn
+515,ad03,1,,Itpot isnitinm thatitephrod s o Aent.ks
+516,ad03,1,,to Am mannongameiac be a seems
+517,ad03,1,,party to An the Will? comeson
+518,ad03,1,,. had wondered Idea poisoned Me who
+519,ad03,0,*,. I we leave when inquired could
+520,ad03,1,,them kicked They
+521,ad03,0,*,the monkey is The ate banana
+522,ad03,0,*,like would I swim could to
+523,ad03,1,,I kicked myself
+524,ad03,0,*,rancase book The
+525,ad03,1,,. myself shaved I
+526,ad03,0,*,a became bound muscle. Anson

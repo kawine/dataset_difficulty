@@ -1,0 +1,517 @@
+,Unnamed: 0,annotator,label,stars,sentence1,H_yb,H_yx,correct_yx,PVI
+0,0,clc95,1,,Somebody just left - guess who.,0.48976993482674674,0.44432608979247434,True,0.0454438450342724
+1,1,clc95,1,,"They claimed they had settled on something, but it wasn't clear what they had settled on.",0.48976993482674674,0.11577264220010353,True,0.3739972926266432
+2,2,clc95,1,,"If Sam was going, Sally would know where.",0.48976993482674674,0.17217469681844044,True,0.3175952380083063
+3,3,clc95,1,,"They're going to serve the guests something, but it's unclear what.",0.48976993482674674,0.19860354283661352,True,0.2911663919901332
+4,4,clc95,1,,She's reading. I can't imagine what.,0.48976993482674674,0.12538564222889403,True,0.3643842925978527
+5,5,clc95,1,,John said Joan saw someone from her graduating class.,0.48976993482674674,0.21941367770271025,True,0.2703562571240365
+6,6,clc95,0,*,John ate dinner but I don't know who.,1.7965540119560852,3.288684659663268,False,-1.4921306477071827
+7,7,clc95,0,*,"She mailed John a letter, but I don't know to whom.",1.7965540119560852,1.7799227001610478,False,0.016631311795037407
+8,8,clc95,1,,I served leek soup to my guests.,0.48976993482674674,0.0926965216680291,True,0.39707341315871764
+9,9,clc95,1,,I served my guests.,0.48976993482674674,0.09751079562048426,True,0.3922591392062625
+10,10,clc95,0,*,"She was bathing, but I couldn't make out who.",1.7965540119560852,2.7867570649805216,False,-0.9902030530244363
+11,11,clc95,0,*,She knew French for Tom.,1.7965540119560852,2.0818898850974605,False,-0.2853358731413753
+12,12,clc95,0,*,John is tall on several occasions.,1.7965540119560852,2.899331245335679,False,-1.1027772333795938
+13,13,clc95,0,*,"The ship sank, but I don't know with what.",1.7965540119560852,0.9271856921176824,True,0.8693683198384028
+14,14,clc95,0,*,"They noticed the painting, but I don't know for how long.",1.7965540119560852,2.5423569834917417,False,-0.7458029715356564
+15,15,clc95,0,*,"John was tall, but I don't know on what occasions.",1.7965540119560852,1.4316001208130151,False,0.3649538911430701
+16,16,clc95,1,,Joan ate dinner with someone but I don't know who.,0.48976993482674674,0.15353296384553772,True,0.336236970981209
+17,17,clc95,1,,Joan ate dinner with someone but I don't know who with.,0.48976993482674674,1.8632072210700286,False,-1.3734372862432818
+18,18,clc95,0,*,"I know that Meg's attracted to Harry, but they don't know who.",1.7965540119560852,3.6479201938191173,False,-1.851366181863032
+19,19,clc95,0,*,"Since Jill said Joe had invited Sue, we didn't have to ask who.",1.7965540119560852,3.183499491683656,False,-1.3869454797275707
+20,20,clc95,1,,"I know that Meg's attracted to Harry, but they don't know who.",0.48976993482674674,0.11994140585327197,True,0.3698285289734748
+21,21,clc95,0,*,"She said she had spoken to everybody, but he wasn't sure who.",1.7965540119560852,2.639231531428152,False,-0.8426775194720666
+22,22,clc95,0,*,"Each of the performers came in, but were sitting so far back that we couldn't see who.",1.7965540119560852,3.122998925204882,False,-1.3264449132487968
+23,23,clc95,1,,She didn't talk to one student.,0.48976993482674674,0.12710976472741584,True,0.36266017009933094
+24,24,clc95,0,*,"She doesn't meet anyone for dinner, but they can't figure out who.",1.7965540119560852,2.9782976645771497,False,-1.1817436526210645
+25,25,clc95,1,,Everyone relies on someone. It's unclear who.,0.48976993482674674,0.2673659214582642,True,0.22240401336848253
+26,26,clc95,1,,"Each student wrote a paper on a Mayan language, but I don't remember which one.",0.48976993482674674,0.14074201190475044,True,0.3490279229219963
+27,27,clc95,1,,"The newspaper has reported that they are about to appoint someone, but I can't remember who the newspaper has reported that they are about to appoint.",0.48976993482674674,0.15930850168224378,True,0.33046143314450294
+28,28,clc95,1,,"The newspaper has reported that they are about to appoint someone, but I can't remember who they are about to appoint.",0.48976993482674674,0.11408210965187321,True,0.37568782517487354
+29,29,clc95,1,,"Most columnists claim that a senior White House official has been briefing them, and the newspaper today reveals which one.",0.48976993482674674,0.20968352364606047,True,0.2800864111806863
+30,30,clc95,1,,"Most columnists claim that a senior White House official has been briefing them, but none will reveal which one.",0.48976993482674674,0.11950713432479493,True,0.3702628005019518
+31,31,clc95,1,,"Bill wondered how many papers Sandy had read, but he didn't care which ones.",0.48976993482674674,0.14453142631644203,True,0.3452385085103047
+32,32,clc95,1,,"I never know which papers Sandy has read, but I usually know how many.",0.48976993482674674,0.1977102491589114,True,0.29205968566783536
+33,33,clc95,1,,Sandy had read how many papers?!,0.48976993482674674,0.20784678166441017,True,0.28192315316233657
+34,34,clc95,1,,"Everybody gets on well with a certain relative, but often only his therapist knows which one.",0.48976993482674674,0.2092968403485632,True,0.2804730944781836
+35,35,clc95,1,,Which book did each author recommend?,0.48976993482674674,0.10873387563403869,True,0.38103605919270805
+36,36,clc95,1,,His or her least known work.,0.48976993482674674,0.48565783556248565,True,0.004112099264261093
+37,37,clc95,1,,"They were going to meet sometime on Sunday, but the faculty didn't know when.",0.48976993482674674,0.12659015240943036,True,0.3631797824173164
+38,38,clc95,1,,"John likes some students, but I don't know who.",0.48976993482674674,0.13341304533015583,True,0.35635688949659095
+39,39,clc95,1,,I don't know who John likes.,0.48976993482674674,0.11737551322402939,True,0.37239442160271735
+40,40,clc95,0,*,"John likes some students, but I don't know who John likes some students.",1.7965540119560852,2.95463743270197,False,-1.158083420745885
+41,41,clc95,0,*,"Joan said she talked to the students, but Fred couldn't figure out who.",1.7965540119560852,3.504221322090637,False,-1.7076673101345519
+42,42,clc95,0,*,"He announced he had eaten the asparagus, but we didn't know what.",1.7965540119560852,3.8228740089303854,False,-2.0263199969743004
+43,43,clc95,1,,"She was reading the books under the table, but Fred didn't know what books.",0.48976993482674674,0.8122063594542719,True,-0.32243642462752514
+44,44,clc95,1,,"He announced he would marry the woman he loved most, but none of his relatives could figure out who.",0.48976993482674674,0.10150378440604818,True,0.38826615042069856
+45,45,clc95,1,,She talked to John or Mary but I don't know which.,0.48976993482674674,0.2659102059584394,True,0.22385972886830735
+46,46,clc95,1,,She talked to John or Mary but I don't know which one.,0.48976993482674674,0.27486833210274003,True,0.2149016027240067
+47,47,clc95,1,,"She talked to Harry, but I don't know who else.",0.48976993482674674,0.5509266884370497,True,-0.06115675361030298
+48,48,clc95,1,,"I will see them, but I don't know how many of them.",0.48976993482674674,0.16502404758400974,True,0.324745887242737
+49,49,clc95,1,,Everyone who knows either Susan or Laura likes her.,0.48976993482674674,0.14501037963692961,True,0.34475955518981716
+50,50,clc95,0,*,She said she talked to three students but I don't know how many.,1.7965540119560852,3.0827091484194984,False,-1.2861551364634132
+51,51,clc95,0,*,She said she talked to those students but I don't know how many.,1.7965540119560852,2.9882825519882714,False,-1.1917285400321862
+52,52,clc95,1,,"He shouted again, but I don't know who to.",0.48976993482674674,1.5453014696398846,False,-1.0555315348131378
+53,53,clc95,1,,"She was dancing with somebody, but I don't know who with.",0.48976993482674674,1.831022972564095,False,-1.3412530377373482
+54,54,clc95,1,,"Several firefighters were injured, but it's not known.",0.48976993482674674,0.10555133843936294,True,0.3842185963873838
+55,55,clc95,1,,"Meg is attracted to Harry, but they don't know who she is attracted to.",0.48976993482674674,0.11294815896275678,True,0.37682177586398996
+56,56,clc95,1,,"Sandy was trying to work out which students would be able to solve a certain problem, but she wouldn't tell us which one.",0.48976993482674674,0.12409113657941398,True,0.36567879824733274
+57,57,clc95,0,*,"Sandy was trying to work out which students would be able to solve a certain problem, but she wouldn't tell us which one.",1.7965540119560852,3.600896044552716,False,-1.8043420325966306
+58,58,clc95,0,*,"John and someone were dancing together, but I don't know who.",1.7965540119560852,3.2361225599877734,False,-1.4395685480316882
+59,59,clc95,1,,"The TA's have been arguing about whether some student or other should pass, but I can't now remember which one.",0.48976993482674674,0.18918510654139564,True,0.3005848282853511
+60,60,clc95,0,*,It has been determined that somebody will be appointed; it's just not clear yet who.,1.7965540119560852,1.7719401038504583,False,0.024613908105626914
+61,61,clc95,0,*,"Sally asked if somebody was going to fail math class, but I can't remember who.",1.7965540119560852,3.49623126850944,False,-1.6996772565533547
+62,62,clc95,0,*,"The TA's have been arguing about whether some student or other should pass, but I can't now remember which one.",1.7965540119560852,3.02445531624922,False,-1.2279013042931346
+63,63,clc95,1,,"Sandy is very anxious to see if the students will be able to solve the homework problem in a particular way, but she won't tell us which.",0.48976993482674674,0.14589588270982784,True,0.3438740521169189
+64,64,clc95,1,,"Sandy is very anxious to see if the students will be able to solve the homework problem in a particular way, but she won't tell us in which way.",0.48976993482674674,0.165312830916385,True,0.32445710391036175
+65,65,clc95,1,,"Clinton is anxious to find out which budget dilemmas Panetta would be willing to tackle in a certain way, but he won't say in which.",0.48976993482674674,0.2164927404137219,True,0.27327719441302484
+66,66,clc95,1,,"Sandy is wondering whether there will be students who have to drop the class for a certain reason, but she won't reveal what.",0.48976993482674674,0.11828695939186165,True,0.37148297543488507
+67,67,clc95,0,*,In which way is Sandy very anxious to see if the students will be able to solve the homework problem?,1.7965540119560852,1.608521834551422,False,0.18803217740466316
+68,68,clc95,0,*,In which way is Clinton anxious to find out which budget dilemmas Panetta would be willing to solve?,1.7965540119560852,2.7283558862861863,False,-0.9318018743301011
+69,69,clc95,1,,"I know how many assignments I've graded, but I don't know how many Bill has.",0.48976993482674674,0.26241316629154293,True,0.2273567685352038
+70,70,clc95,0,*,What did you leave before they did?,1.7965540119560852,2.897762030372708,False,-1.1012080184166229
+71,71,clc95,0,*,What did you leave before they started playing?,1.7965540119560852,2.222738362916075,False,-0.42618435095998985
+72,72,clc95,1,,Sandy was trying to work out which students would be able to solve a certain problem.,0.48976993482674674,0.09038868350543298,True,0.39938125132131375
+73,73,clc95,1,,The administration has issued a statement that it is willing to meet with one of the student groups.,0.48976993482674674,0.08608496713022974,True,0.403684967696517
+74,74,clc95,1,,Sandy was trying to work out which students would be able to solve a problem.,0.48976993482674674,0.08242705592503331,True,0.40734287890171345
+75,75,clc95,1,,The administration has issued a statement that it is willing to meet a student group.,0.48976993482674674,0.09769702442506298,True,0.3920729104016838
+76,76,clc95,1,,"The administration has issued a statement that it is willing to meet a student group, but I'm not sure which one.",0.48976993482674674,0.1495399597778568,True,0.34022997504888997
+77,77,clc95,1,,"I think Agnes said that Bill would speak, but I don't remember what about.",0.48976993482674674,1.595391901389981,False,-1.1056219665632343
+78,78,clc95,0,*,Agnes wondered how John could eat but it's not clear what.,1.7965540119560852,2.922580536468236,False,-1.1260265245121508
+79,79,clc95,0,*,"Tony sent Mo a picture that he painted, but it's not clear with what.",1.7965540119560852,1.6679738352116513,False,0.1285801767444339
+80,80,clc95,1,,She's been dancing but we don't know with whom.,0.48976993482674674,0.5992684153145011,True,-0.1094984804877544
+81,81,clc95,0,*,Who did they see someone?,1.7965540119560852,0.4678203146230038,True,1.3287336973330814
+82,82,c-05,1,,It was believed by everybody that Mary was a thief.,0.48976993482674674,0.12820302626958996,True,0.3615669085571568
+83,83,c-05,1,,That professor is feared by all students.,0.48976993482674674,0.35436949045798555,True,0.1354004443687612
+84,84,c-05,1,,Mary was respected by John.,0.48976993482674674,0.23584952807724982,True,0.2539204067494969
+85,85,c-05,1,,Ted was bitten by the spider.,0.48976993482674674,0.05878462392884102,True,0.4309853108979057
+86,86,c-05,0,*,The book was by John written.,1.7965540119560852,0.3797311687919912,True,1.416822843164094
+87,87,c-05,0,*,The argument was summed by the coach up.,1.7965540119560852,0.7307060686374871,True,1.0658479433185981
+88,88,c-05,1,,The paper was written up by John.,0.48976993482674674,0.10944671958815187,True,0.38032321523859486
+89,89,c-05,0,*,The paper was written by John up.,1.7965540119560852,1.8653414961793329,False,-0.06878748422324765
+90,90,c-05,1,,John was spoken to by Mary.,0.48976993482674674,0.13048823719376956,True,0.3592816976329772
+91,91,c-05,0,*,John was spoken by Mary to.,1.7965540119560852,0.458375977724531,True,1.3381780342315541
+92,92,c-05,1,,The book was seen by Mary.,0.48976993482674674,0.5322934636842864,True,-0.04252352885753968
+93,93,c-05,0,*,John was seen the book.,1.7965540119560852,0.3856812904293502,True,1.4108727215267352
+94,94,c-05,1,,The book was written.,0.48976993482674674,0.7369301375120603,True,-0.24716020268531352
+95,95,c-05,0,*,John was spoke by Mary to.,1.7965540119560852,0.37293440874472034,True,1.4236196032113648
+96,96,c-05,1,,The table was wiped clean by John.,0.48976993482674674,0.11998242921993874,True,0.369787505606808
+97,97,c-05,0,*,The table was wiped by John clean.,1.7965540119560852,0.5564890651030241,True,1.2400649468530611
+98,98,c-05,0,*,Mary was given by John the book.,1.7965540119560852,0.711375939331947,True,1.0851780726241382
+99,99,c-05,1,,John was believed to be telling the truth by Mary.,0.48976993482674674,0.14398877936584317,True,0.3457811554609036
+100,100,c-05,1,,John was believed by Mary to be telling the truth.,0.48976993482674674,0.1273152575899718,True,0.36245467723677494
+101,101,c-05,1,,The car was driven by John to Maine.,0.48976993482674674,0.33983954422757867,True,0.14993039059916807
+102,102,c-05,1,,It was believed by the students that they would have an exam.,0.48976993482674674,0.06844721023913028,True,0.42132272458761644
+103,103,c-05,0,*,The magazines were sent to herself by Mary.,1.7965540119560852,1.2362171609886499,False,0.5603368509674354
+104,104,c-05,0,*,Chocolate eggs were hidden from each other by the children.,1.7965540119560852,3.9224211344117355,False,-2.1258671224556505
+105,105,c-05,1,,The magazines were sent by Mary to herself.,0.48976993482674674,0.5981788376991339,True,-0.10840890287238719
+106,106,c-05,1,,Chocolate eggs were hidden from no child by any adult.,0.48976993482674674,0.43463802261938783,True,0.05513191220735891
+107,107,c-05,1,,Tabs were kept on each agent by the other.,0.48976993482674674,0.38344723020201704,True,0.1063227046247297
+108,108,c-05,1,,Chocolate eggs were hidden from every child by his mother.,0.48976993482674674,0.1309965433263895,True,0.35877339150035725
+109,109,c-05,1,,Books were taken from no student and given to Mary.,0.48976993482674674,0.5449161434219134,True,-0.05514620859516667
+110,110,c-05,0,*,Books were taken from no student and given to Mary by any professor.,1.7965540119560852,1.225389262446739,False,0.5711647495093461
+111,111,c-05,1,,Books were taken from each student by the other.,0.48976993482674674,0.3559742040257061,True,0.13379573080104062
+112,112,c-05,1,,Books were taken from each student and given to Mary.,0.48976993482674674,0.13453016352210154,True,0.35523977130464524
+113,113,c-05,0,*,Books were taken from each student and given to Mary by the other.,1.7965540119560852,2.7948073801984403,False,-0.9982533682423551
+114,114,j_71,1,,Jack hates Sue and is loved by Mary.,0.48976993482674674,0.1997283699445057,True,0.29004156488224103
+115,115,j_71,1,,Vera sent a baby alligator to Max and a leather dinosaur to Phyllis.,0.48976993482674674,0.40153727812937995,True,0.0882326566973668
+116,116,j_71,1,,Either Sam plays the bassoon or Jekyll the oboe.,0.48976993482674674,0.13499164355254673,True,0.3547782912742
+117,117,j_71,1,,"Sam doesn't play bassoon, nor Medusa oboe.",0.48976993482674674,0.21627124853516955,True,0.2734986862915772
+118,118,j_71,0,*,"Bill ate the peaches, but Harry the grapes.",1.7965540119560852,0.9222267138232988,True,0.8743272981327864
+119,119,j_71,1,,I no more could have stolen that steak than Jack the diamonds.,0.48976993482674674,0.39027116319800365,True,0.0994987716287431
+120,120,j_71,1,,Bill ate more peaches than Harry did grapes.,0.48976993482674674,0.14952870463608822,True,0.34024123019065855
+121,121,j_71,0,*,Bill ate the peaches and Harry did the grapes.,1.7965540119560852,3.9922027772272286,False,-2.1956487652711436
+122,122,j_71,0,*,"Tom will smoke the grass, and Reuben has the hash.",1.7965540119560852,4.170025120316846,False,-2.3734711083607607
+123,123,j_71,1,,"If the ants were called elephants and elephants ants, I'd be able to squash an elephant.",0.48976993482674674,0.17526466687286404,True,0.3145052679538827
+124,124,j_71,1,,"Simon quickly dropped the gold, and Jack the diamonds.",0.48976993482674674,1.009275887383607,False,-0.5195059525568602
+125,125,j_71,1,,"Bob tried to wash himself, and Mary to read the funnies.",0.48976993482674674,1.6480534582981625,False,-1.1582835234714157
+126,126,j_71,1,,"Harry told Sue that Albania is a lovely place for a vacation, and Tom told Sally that Albania is a lovely place for a vacation.",0.48976993482674674,0.11410156083370908,True,0.37566837399303765
+127,127,j_71,1,,"Harry told Sue that Albania is a lovely place for a vacation, and Tom.",0.48976993482674674,0.5108840992267375,True,-0.021114164399990754
+128,128,j_71,1,,"Max seemed to be trying to begin to love Harriet, and Fred to be trying to begin to love Sue.",0.48976993482674674,0.88943258028485,True,-0.3996626454581032
+129,129,j_71,1,,"Max seemed to be trying to force Ted to leave the room, and Walt, Ira.",0.48976993482674674,1.3112871821292265,False,-0.8215172473024797
+130,130,j_71,0,*,"Max seemed to be trying to force Ted to leave the room, and Walt to stay a little longer.",1.7965540119560852,1.534953924124174,False,0.26160008783191113
+131,131,j_71,0,*,"Arizona elected Goldwater Senator, and Massachusetts, McCormack.",1.7965540119560852,2.5397558514768126,False,-0.7432018395207274
+132,132,j_71,0,*,"Millie will send the President an obscene telegram, and Paul, the Secretary a rude letter.",1.7965540119560852,1.399293858646804,False,0.3972601533092812
+133,133,j_71,0,*,Maytag will give a brand-new dryer to the winner of the Mrs.,1.7965540119560852,1.9479174118974107,False,-0.15136339994132553
+134,134,j_71,0,*,"Bill didn't eat the peaches, nor Harry.",1.7965540119560852,1.6412098490561475,False,0.1553441628999377
+135,135,j_71,1,,"Bill ate the peaches, and Harry did, too.",0.48976993482674674,0.08556887916917044,True,0.4042010556575763
+136,136,j_71,0,*,"Bill must quickly eat the peaches, and Harry must slowly.",1.7965540119560852,2.950676553968667,False,-1.1541225420125818
+137,137,j_71,1,,"Whenever Russia has made a major political blunder, the U.S. has too.",0.48976993482674674,0.2704122385993318,True,0.21935769622741497
+138,138,j_71,1,,Bill's story about Sue and Max's about Kathy both amazed me.,0.48976993482674674,0.4726935064039245,True,0.017076428422822254
+139,139,j_71,1,,I bought three quarts of wine and two of Clorox.,0.48976993482674674,0.11149864429641208,True,0.37827129053033465
+140,140,j_71,1,,"Scientists at the South Hanoi Institute of Technology have succeeded in raising one dog with five legs, another with a cow's liver, and a third with no head.",0.48976993482674674,0.1541851388095156,True,0.3355847960172311
+141,141,j_71,1,,"Bill's story about Sue may be amazing, but Max's is virtually incredible.",0.48976993482674674,0.2616950421169899,True,0.22807489270975684
+142,142,j_71,1,,"I like Bill's yellow shirt, but not Max's.",0.48976993482674674,0.1437760528341929,True,0.3459938819925539
+143,143,j_71,1,,Bill's funny story about Sue and Max's boring one about Kathy both amazed me.,0.48976993482674674,0.41827394198795337,True,0.07149599283879338
+144,144,j_71,1,,Bill's wine from France and Ted's from California cannot be compared.,0.48976993482674674,0.153569405923358,True,0.33620052890338875
+145,145,j_71,0,*,"As a teacher, you have to deal simultaneously with the administration's pressure on you to succeed, and the children's to be a nice guy.",1.7965540119560852,1.2503435160228349,False,0.5462104959332503
+146,146,j_71,1,,Neither Von Karajan's recording of Beethoven's 6th on Columbia nor Klemperer's on Angel has the right tempo.,0.48976993482674674,0.3391541743936133,True,0.15061576043313346
+147,147,j_71,0,*,Gould's performance of Bach on the piano doesn't please me anywhere as much as Ross's on the harpsichord.,1.7965540119560852,2.6647067000310827,False,-0.8681526880749975
+148,148,j_71,0,*,Tom's dog with one eye attacked Frank's with three legs.,1.7965540119560852,3.088464643970085,False,-1.2919106320139997
+149,149,j_71,0,*,"Because Steve's of a spider's eye had been stolen, I borrowed Fred's diagram of a snake's fang.",1.7965540119560852,0.8252024449077557,True,0.9713515670483295
+150,150,j_71,1,,Neither von Karajan's recording of Beethoven's 6th on Columbia nor Klemperer's has the right tempo.,0.48976993482674674,0.24111428706371413,True,0.24865564776303262
+151,151,j_71,1,,Tom's dog with one eye attacked Fred's.,0.48976993482674674,0.14976193293015308,True,0.34000800189659364
+152,152,j_71,1,,I borrowed Fred's diagram of a snake's eye because Steve's had been stolen.,0.48976993482674674,0.5902157183037308,True,-0.10044578347698402
+153,153,j_71,1,,Jerry attempted to blow up the Pentagon.,0.48976993482674674,0.06742703345764825,True,0.42234290136909847
+154,154,j_71,1,,So fast did he run that nobody could catch him.,0.48976993482674674,0.09060311250192797,True,0.39916682232481876
+155,155,j_71,1,,"Bill bought a red house, and Max bought one too.",0.48976993482674674,0.08305633083842037,True,0.40671360398832634
+156,156,s_97,1, ,Who always drinks milk?,0.48976993482674674,0.14043545148428072,True,0.34933448334246603
+157,157,s_97,1,,The book which inspired them was very long.,0.48976993482674674,0.7190201495089332,True,-0.22925021468218648
+158,158,s_97,0,*,The book what inspired them was very long.,1.7965540119560852,0.6133321659755586,True,1.1832218459805266
+159,159,s_97,1,,I know the person whose mother died.,0.48976993482674674,0.14502711450541206,True,0.3447428203213347
+160,160,s_97,1,,The person whose mother's dog we were all fond of.,0.48976993482674674,0.4764226104520004,True,0.013347324374746339
+161,161,s_97,1,,I wonder whose mother died.,0.48976993482674674,0.10794761466043604,True,0.3818223201663107
+162,162,s_97,1,,I wonder whose mother's dog died.,0.48976993482674674,0.13085925759803946,True,0.3589106772287073
+163,163,s_97,1,,I wonder to whom they dedicated the building.,0.48976993482674674,0.2270333916341847,True,0.262736543192562
+164,164,s_97,1,,Give me the phone number of the person whose mother's dog died.,0.48976993482674674,0.11982049182758138,True,0.3699494429991654
+165,165,s_97,1,,This is the senator to whose mother's friend's sister's I sent the letter.,0.48976993482674674,1.4160904172327031,False,-0.9263204824059563
+166,166,s_97,0,*,I want goes to the store.,1.7965540119560852,0.40272691291161783,True,1.3938270990444674
+167,167,s_97,0,*,I wonder what to be a clown on the cover of.,1.7965540119560852,0.7136623577264103,True,1.082891654229675
+168,168,s_97,0,*,Bother you that Kim left!,1.7965540119560852,0.4828295970594834,True,1.3137244148966019
+169,169,s_97,0,*,A student who to talk to us just walked in.,1.7965540119560852,0.5696397177339452,True,1.22691429422214
+170,170,s_97,1,,Whose bagels do you like?,0.48976993482674674,0.12244681085800069,True,0.36732312396874606
+171,171,s_97,1,,I wonder in whom to place my trust.,0.48976993482674674,0.8188354564262081,True,-0.3290655215994614
+172,172,s_97,1,,There were several old rocks songs that she and I were the only two who knew.,0.48976993482674674,0.3312317421651757,True,0.15853819266157104
+173,173,s_97,0,*,It was to to amuse us that Kim was singing that they wanted.,1.7965540119560852,0.4974777267912359,True,1.2990762851648494
+174,174,s_97,0,*,What they feared most was to be no one available to help them.,1.7965540119560852,2.3796738856997246,False,-0.5831198737436394
+175,175,s_97,0,*,We tried to amuse them that Kim was singing.,1.7965540119560852,2.8121218065712674,False,-1.0155677946151822
+176,176,s_97,1,,"Mary asked me if, in St. Louis, John could rent a house cheap.",0.48976993482674674,0.16124463209470943,True,0.3285253027320373
+177,177,s_97,0,*,"Mary arranged for, in St. Louis, John to rent a house cheap.",1.7965540119560852,1.807938856822444,False,-0.011384844866358712
+178,178,s_97,1,,It would be unwise for there to be no fire exit.,0.48976993482674674,0.3253437118275758,True,0.16442622299917092
+179,179,s_97,1,,I believe there to be no way out.,0.48976993482674674,0.11284410231010639,True,0.37692583251664036
+180,180,s_97,0,*,I wonder in whom them to place their trust.,1.7965540119560852,0.40464461960915726,True,1.391909392346928
+181,181,s_97,0,*,I wonder whom us to trust.,1.7965540119560852,0.5601276565375339,True,1.2364263554185513
+182,182,s_97,0,*,I wonder who for us to trust.,1.7965540119560852,0.45023859429867263,True,1.3463154176574126
+183,183,s_97,1,,I wonder who to place my trust in.,0.48976993482674674,1.2944996486286402,False,-0.8047297138018934
+184,184,s_97,1,,I know the people that voted in the election.,0.48976993482674674,0.11829237305681631,True,0.3714775617699304
+185,185,s_97,1,,I threw away a book that Sandy thought we had read.,0.48976993482674674,0.07428231653326064,True,0.4154876182934861
+186,186,s_97,1,,I thought that you were sick.,0.48976993482674674,0.11576397682583303,True,0.37400595800091374
+187,187,s_97,0,*,I dislike the people in who we placed our trust.,1.7965540119560852,1.2970038696371604,False,0.4995501423189248
+188,188,s_97,1,,I dislike the company in which we placed our trust.,0.48976993482674674,0.1753296275375799,True,0.31444030728916683
+189,189,s_97,1,,I dislike the people in whose house we stayed.,0.48976993482674674,0.07866442439840006,True,0.4111055104283467
+190,190,s_97,1,,I dislike the person with whom we were talking.,0.48976993482674674,0.10824864581374918,True,0.38152128901299753
+191,191,s_97,0,*,"Jones, that we were talking to last night, always watches football games alone.",1.7965540119560852,1.2836070123970564,False,0.5129469995590288
+192,192,s_97,1,,A letter was received that Jones would be upset by.,0.48976993482674674,0.7642596373104575,True,-0.2744897024837108
+193,193,s_97,0,*,A letter was received Jones would be upset by.,1.7965540119560852,0.716578687236781,True,1.0799753247193042
+194,194,s_97,1,,I saw someone yesterday I hadn't seen for years.,0.48976993482674674,0.13597079472886633,True,0.3537991400978804
+195,195,s_97,1,,Something happened I couldn't really talk about.,0.48976993482674674,0.10190609120100969,True,0.38786384362573706
+196,196,s_97,1,,The only person that I like whose kids Dana is willing to put up with is Pat.,0.48976993482674674,0.29775976853273656,True,0.1920101662940102
+197,197,s_97,1,,The book that I like which everyone else in the class hates was written by John.,0.48976993482674674,0.6284590303413571,True,-0.13868909551461034
+198,198,s_97,0,*,The only person whose kids Dana is willing to put up with was written by John.,1.7965540119560852,1.62267943801438,False,0.17387457394170514
+199,199,s_97,0,*,The book that I like - everyone else in the class hates.,1.7965540119560852,2.3047684157352273,False,-0.5082144037791421
+200,200,s_97,1,,The only person whose kids Dana is willing to put up with is Pat.,0.48976993482674674,0.4524343348650995,True,0.03733559996164726
+201,201,s_97,1,,Which book's author did you meet?,0.48976993482674674,0.23025283682677092,True,0.2595170979999758
+202,202,s_97,0,*,Which boy's mother did you meet who you liked?,1.7965540119560852,2.603605181534159,False,-0.807051169578074
+203,203,s_97,0,*,Which book's author did you meet who you liked?,1.7965540119560852,2.3772127502092992,False,-0.580658738253214
+204,204,s_97,1,,Which boy's mother did you meet?,0.48976993482674674,0.1658000849496023,True,0.32396984987714444
+205,205,s_97,1,,All who lost money in the scam are eligible for the program.,0.48976993482674674,0.08330747995635099,True,0.4064624548703958
+206,206,s_97,0,*,Who for Sandy to talk to is still enrolled in the class?,1.7965540119560852,0.5435031995862902,True,1.253050812369795
+207,207,s_97,1,,Who who you like does Sandy also like?,0.48976993482674674,0.32717760135917856,True,0.16259233346756818
+208,208,s_97,1,,Everything you like is on the table.,0.48976993482674674,0.08845696393357683,True,0.4013129708931699
+209,209,s_97,1,,The bills passed by the House yesterday that we objected to were vetoed.,0.48976993482674674,0.7692858479849349,True,-0.2795159131581882
+210,210,s_97,1,,The only people being added to our group who were at Harvard were students.,0.48976993482674674,0.17981899205809643,True,0.3099509427686503
+211,211,swb04,1,,We like ourselves.,0.48976993482674674,0.8387729129647739,True,-0.3490029781380271
+212,212,swb04,1,,Nobody likes us.,0.48976993482674674,0.10695608344884476,True,0.38281385137790197
+213,213,swb04,0,*,Leslie likes ourselves.,1.7965540119560852,0.5982669682225648,True,1.1982870437335205
+214,214,swb04,0,*,Ourselves like ourselves.,1.7965540119560852,0.7648299530607421,True,1.0317240588953431
+215,215,swb04,1,,She voted for herself.,0.48976993482674674,1.1313148554221797,False,-0.6415449205954329
+216,216,swb04,0,*,We gave us presents.,1.7965540119560852,4.090617854521808,False,-2.2940638425657225
+217,217,swb04,1,,We gave ourselves presents.,0.48976993482674674,0.3330560214887092,True,0.15671391333803752
+218,218,swb04,1,,We gave presents to ourselves.,0.48976993482674674,0.22382583466935083,True,0.2659441001573959
+219,219,swb04,0,*,We gave us to the cause.,1.7965540119560852,1.519659449189728,False,0.27689456276635727
+220,220,swb04,1,,We gave ourselves to the cause.,0.48976993482674674,1.1556369203399597,False,-0.6658669855132129
+221,221,swb04,0,*,Leslie told us about us.,1.7965540119560852,1.508215759523181,False,0.2883382524329041
+222,222,swb04,0,*,Leslie told ourselves about us.,1.7965540119560852,0.7954446759094469,True,1.0011093360466383
+223,223,swb04,1,,We think that Leslie likes us.,0.48976993482674674,0.13660146444517787,True,0.35316847038156884
+224,224,swb04,0,*,We think that Leslie likes ourselves.,1.7965540119560852,1.1460321329277185,False,0.6505218790283667
+225,225,swb04,1,,Our friends like us.,0.48976993482674674,0.1121300428344553,True,0.3776398919922914
+226,226,swb04,1,,Those pictures of us offended us.,0.48976993482674674,0.09235067889480408,True,0.39741925593194266
+227,227,swb04,0,*,We found your letter to ourselves in the trash.,1.7965540119560852,1.0777615987552729,False,0.7187924132008123
+228,228,swb04,0,*,Vote for you!,1.7965540119560852,3.1853097793847684,False,-1.3887557674286832
+229,229,swb04,1,,Vote for yourself!,0.48976993482674674,0.20263779365466,True,0.28713214117208674
+230,230,swb04,0,*,We appeared to them to vote for themselves.,1.7965540119560852,1.4523567950622371,False,0.3441972168938481
+231,231,swb04,1,,We admired the pictures of us in the album.,0.48976993482674674,0.0984990766515512,True,0.3912708581751955
+232,232,swb04,1,,We admired the pictures of ourselves in the album.,0.48976993482674674,0.8818516410769552,True,-0.3920817062502085
+233,233,swb04,1,,Leslie used a pen.,0.48976993482674674,0.05709001673846308,True,0.43267991808828365
+234,234,swb04,1,,We put the pigs in a pen.,0.48976993482674674,0.09358681548900637,True,0.39618311933774036
+235,235,swb04,1,,We need to pen the pigs to keep them from getting into the corn.,0.48976993482674674,0.10201573002688935,True,0.3877542047998574
+236,236,swb04,1,,They should pen the letter quickly.,0.48976993482674674,0.061662879443830185,True,0.42810705538291655
+237,237,swb04,1,,The car won't run.,0.48976993482674674,0.08389922419873673,True,0.40587071062801
+238,238,swb04,1,,This dye will run.,0.48976993482674674,0.47244818482431084,True,0.01732175000243591
+239,239,swb04,1,,She can run an accelerator.,0.48976993482674674,0.06528078144256845,True,0.4244891533841783
+240,240,swb04,1,,These stockings will run.,0.48976993482674674,0.20906511867020605,True,0.2807048161565407
+241,241,swb04,1,,We need another run to win.,0.48976993482674674,0.10362647964850437,True,0.3861434551782424
+242,242,swb04,1,,Lee saw the student with a telescope.,0.48976993482674674,0.060631344242620226,True,0.4291385905841265
+243,243,swb04,1,,I forgot how good beer tastes.,0.48976993482674674,0.10001650045722564,True,0.3897534343695211
+244,244,swb04,1,,Visiting relatives can be boring.,0.48976993482674674,0.07102438889576838,True,0.41874554593097835
+245,245,swb04,1,,If only Superman would stop flying planes!,0.48976993482674674,0.17996919987543894,True,0.3098007349513078
+246,246,swb04,1,,That's a new car dealership.,0.48976993482674674,0.21307743636385365,True,0.2766924984628931
+247,247,swb04,1,,I know you like the back of my hand.,0.48976993482674674,0.08729427585377389,True,0.4024756589729729
+248,248,swb04,1,,Max is on the phone now.,0.48976993482674674,0.07660160066798138,True,0.41316833415876536
+249,249,swb04,1,,I saw her duck.,0.48976993482674674,0.08084688311172665,True,0.4089230517150201
+250,250,swb04,1,,I'm creating a committee. Kim – you're in charge.,0.48976993482674674,0.2064646559894434,True,0.28330527883730333
+251,251,swb04,1,,Lights go out at ten. There will be no talking afterwards.,0.48976993482674674,0.08936486287475287,True,0.4004050719519939
+252,252,swb04,1,,They found the book on the atom.,0.48976993482674674,1.2324440125886433,False,-0.7426740777618965
+253,253,swb04,1,,Which experts testified against defendants who exposed them?,0.48976993482674674,0.1678587451530633,True,0.3219111896736835
+254,254,swb04,1,,List all experts for the defendant who represented himself.,0.48976993482674674,0.4380803641747477,True,0.05168957065199903
+255,255,swb04,1,,List associates of each defendant who speaks Spanish.,0.48976993482674674,0.8901550019725083,True,-0.40038506714576155
+256,256,swb04,0,*,They lost themselves' books.,1.7965540119560852,1.0848864298981633,False,0.7116675820579219
+257,257,swb04,1,,Some sentences go on and on and on.,0.48976993482674674,0.15110365619358468,True,0.33866627863316207
+258,258,swb04,0,*,Sentences some go on and on and on and on.,1.7965540119560852,1.3653518886863287,False,0.4312021232697565
+259,259,swb04,1,,That surprised me.,0.48976993482674674,0.11272452546992427,True,0.37704540935682246
+260,260,swb04,0,*,I noticed the.,1.7965540119560852,0.4901325951140308,True,1.3064214168420545
+261,261,swb04,1,,They were interested in his.,0.48976993482674674,0.5663878178469802,True,-0.07661788302023348
+262,262,swb04,1,,This is my favorite.,0.48976993482674674,0.07803969417406922,True,0.4117302406526775
+263,263,swb04,1,,A large dog chased a small cat.,0.48976993482674674,0.060233299650169665,True,0.4295366351765771
+264,264,swb04,1,,Some people yell at noisy dogs in my neighborhood.,0.48976993482674674,0.07734437465798157,True,0.4124255601687652
+265,265,swb04,1,,Some people yell at the dogs in my neighborhood.,0.48976993482674674,0.07407111415819585,True,0.4156988206685509
+266,266,swb04,1,,Some people yell at the dogs.,0.48976993482674674,0.06709169906527788,True,0.42267823576146885
+267,267,swb04,1,,Some people yell at noisy dogs.,0.48976993482674674,0.08215002521589528,True,0.4076199096108515
+268,268,swb04,1,,Some people yell at dogs.,0.48976993482674674,0.07388175537737574,True,0.415888179449371
+269,269,swb04,1,,Some people consider the noisy dogs dangerous.,0.48976993482674674,0.08236578231039257,True,0.4074041525163542
+270,270,swb04,1,,Some people consider the dogs in my neighborhood dangerous.,0.48976993482674674,0.07272966461456366,True,0.4170402702121831
+271,271,swb04,1,,Some people consider noisy dogs in my neighborhood dangerous.,0.48976993482674674,0.09729000209912057,True,0.39247993272762616
+272,272,swb04,1,,Some people consider the dogs dangerous.,0.48976993482674674,0.06782102931621473,True,0.421948905510532
+273,273,swb04,1,,Some people consider noisy dogs dangerous.,0.48976993482674674,0.10183124995270534,True,0.3879386848740414
+274,274,swb04,1,,Some people consider dogs in my neighborhood dangerous.,0.48976993482674674,0.07561596809022267,True,0.41415396673652405
+275,275,swb04,1,,Some people consider dogs dangerous.,0.48976993482674674,0.07273961277169053,True,0.4170303220550562
+276,276,swb04,1,,People with children who use drugs should be locked up.,0.48976993482674674,0.06812876697276332,True,0.4216411678539834
+277,277,swb04,1,,This disease gave Leslie a fever in Rome.,0.48976993482674674,0.08788327109954423,True,0.4018866637272025
+278,278,swb04,1,,The love of my life and mother of my children would never do such a thing.,0.48976993482674674,0.20142378245945355,True,0.2883461523672932
+279,279,swb04,1,,"Most elections are quickly forgotten, but the election of 2000, everyone will remember for a long time.",0.48976993482674674,0.32149527948497747,True,0.16827465534176927
+280,280,swb04,0,*,It is painting by Klee or drawing by Miro that the museum displays no.,1.7965540119560852,0.9168039376724736,True,0.8797500742836116
+281,281,swb04,1,,The defendant denied the accusation.,0.48976993482674674,0.07042065487137042,True,0.4193492799553763
+282,282,swb04,0,*,The teacher disappeared the problem.,1.7965540119560852,0.3374169117251748,True,1.4591371002309104
+283,283,swb04,0,*,The teacher handed the student.,1.7965540119560852,0.5116845714060316,True,1.2848694405500536
+284,284,swb04,1,,The bird sings.,0.48976993482674674,0.07214582795538853,True,0.4176241068713582
+285,285,swb04,0,*,The bird sing.,1.7965540119560852,1.6785695023278453,False,0.11798450962823992
+286,286,swb04,0,*,Birds sings.,1.7965540119560852,3.8831259015795108,False,-2.0865718896234258
+287,287,swb04,1,,The birds give the worm a tug.,0.48976993482674674,0.16272009492797757,True,0.3270498398987692
+288,288,swb04,0,*,The bird give the worm a tug.,1.7965540119560852,1.124729009157985,False,0.6718250027981003
+289,289,swb04,0,*,The birds gives the worm a tug.,1.7965540119560852,1.920117314004312,False,-0.12356330204822674
+290,290,swb04,1,,Terry delighted in my pain.,0.48976993482674674,0.2974778849049566,True,0.19229204992179016
+291,291,swb04,0,*,Terry delighted.,1.7965540119560852,2.158249189014299,False,-0.36169517705821375
+292,292,swb04,0,*,Terry delighted my pain.,1.7965540119560852,1.2728843111833787,False,0.5236697007727065
+293,293,swb04,1,,Kerry remarked it was late.,0.48976993482674674,0.23733116432115323,True,0.2524387705055935
+294,294,swb04,1,,What additional categories and rules would be required to handle these verbs?,0.48976993482674674,0.13911326758759368,True,0.35065666723915306
+295,295,swb04,1,,We created a monster.,0.48976993482674674,0.09178450824890093,True,0.3979854265778458
+296,296,swb04,0,*,I was already aware of fact.,1.7965540119560852,0.9127182982020225,True,0.8838357137540627
+297,297,swb04,0,*,The defendant deny the allegation.,1.7965540119560852,2.5943474401769424,False,-0.7977934282208572
+298,298,swb04,0,*,The defendants denies the allegation.,1.7965540119560852,4.096972210750234,False,-2.3004181987941488
+299,299,swb04,1,,The defendant walks.,0.48976993482674674,0.11567443767257786,True,0.3740954971541689
+300,300,swb04,0,*,The defendant walk.,1.7965540119560852,0.711512943443346,True,1.0850410685127392
+301,301,swb04,0,*,The defendants walks.,1.7965540119560852,1.390163986010906,False,0.40639002594517915
+302,302,swb04,1,,How many feature structures categories can label the first daughter?,0.48976993482674674,0.5010463725194714,True,-0.011276437692724628
+303,303,swb04,1,,The child put the toy on the table.,0.48976993482674674,0.09630365181142657,True,0.39346628301532016
+304,304,swb04,1,,The teacher became angry with the students.,0.48976993482674674,0.08225571484948532,True,0.40751421997726145
+305,305,swb04,0,*,The teacher became.,1.7965540119560852,0.4302156485565339,True,1.3663383633995514
+306,306,swb04,1,,The jury believed the defendant lied.,0.48976993482674674,0.06598786264452,True,0.42378207218222674
+307,307,swb04,1,,The guests dined.,0.48976993482674674,0.06590487042135858,True,0.4238650644053882
+308,308,swb04,1,,We relied on Leslie.,0.48976993482674674,0.15688920662577568,True,0.33288072820097103
+309,309,swb04,0,*,We relied above Leslie.,1.7965540119560852,0.5000012407921942,True,1.2965527711638911
+310,310,swb04,1,,We celebrated in the streets.,0.48976993482674674,0.6945246291662324,True,-0.20475469433948562
+311,311,swb04,1,,We celebrated in the streets in the rain on Tuesday in the morning.,0.48976993482674674,0.5250517346594981,True,-0.035281799832751315
+312,312,swb04,0,*,The children are happy of ice cream.,1.7965540119560852,0.7363724619553718,True,1.0601815500007135
+313,313,swb04,0,*,The children are fond with the ice cream.,1.7965540119560852,0.8885490854899609,True,0.9080049264661243
+314,314,swb04,0,*,The children are fond that they have ice cream.,1.7965540119560852,0.5302169785731605,True,1.2663370333829247
+315,315,swb04,1,,A magazine appeared on the newsstands.,0.48976993482674674,0.09196844122163954,True,0.3978014936051072
+316,316,swb04,1,,A magazine about crime appeared on the newsstands.,0.48976993482674674,0.07731996924132825,True,0.41244996558541847
+317,317,swb04,1,,Newsweek appeared on the newsstands.,0.48976993482674674,0.10551553420939506,True,0.38425440061735167
+318,318,swb04,0,*,Newsweek about crime appeared on the newsstands.,1.7965540119560852,1.0900064160728051,False,0.7065475958832801
+319,319,swb04,1,,The report that crime was declining surprised many people.,0.48976993482674674,0.5685248400883438,True,-0.07875490526159706
+320,320,swb04,1,,The book surprised many people.,0.48976993482674674,0.09672943037882775,True,0.393040504447919
+321,321,swb04,0,*,The book that crime was declining surprised many people.,1.7965540119560852,0.5705361738468604,True,1.2260178381092248
+322,322,swb04,1,,The storm arrived after the picnic.,0.48976993482674674,0.41004626360999386,True,0.07972367121675289
+323,323,swb04,0,*,The storm arrived while the picnic.,1.7965540119560852,0.5546150416484075,True,1.2419389703076777
+324,324,swb04,1,,The storm arrived while we ate lunch.,0.48976993482674674,0.22113299764946337,True,0.2686369371772834
+325,325,swb04,0,*,This dogs barked.,1.7965540119560852,1.3968806835215406,False,0.3996733284345446
+326,326,swb04,1,,These dogs barked.,0.48976993482674674,0.18152479931316656,True,0.3082451355135802
+327,327,swb04,1,,A chair was broken.,0.48976993482674674,0.062282442087797506,True,0.42748749273894926
+328,328,swb04,1,,They want them arrested.,0.48976993482674674,0.09094945242041688,True,0.39882048240632983
+329,329,swb04,1,,They preferred them arrested.,0.48976993482674674,2.0800194049510377,False,-1.5902494701242909
+330,330,swb04,1,,We preferred them on our team.,0.48976993482674674,0.6507276813484115,True,-0.16095774652166478
+331,331,swb04,1,,"With my parents as supportive as they are, I'll be in fine shape.",0.48976993482674674,0.2013297548039125,True,0.2884401800228342
+332,332,swb04,0,*,We walks.,1.7965540119560852,1.1111800300121728,False,0.6853739819439124
+333,333,swb04,0,*,Few dog barked.,1.7965540119560852,0.571745906300471,True,1.2248081056556144
+334,334,swb04,1,,The dogs barked.,0.48976993482674674,0.16617499291372792,True,0.32359494191301885
+335,335,swb04,1,,I walk and Dana runs.,0.48976993482674674,0.10258463827716506,True,0.38718529654958167
+336,336,swb04,1,,They like us.,0.48976993482674674,0.09111853166612209,True,0.39865140316062464
+337,337,swb04,0,*,Us like them.,1.7965540119560852,2.64823606005515,False,-0.8516820480990648
+338,338,swb04,1,,Kim likes dogs.,0.48976993482674674,0.06920943337894817,True,0.42056050144779855
+339,339,swb04,1,,Dogs like Kim.,0.48976993482674674,0.11735312621546624,True,0.3724168086112805
+340,340,swb04,1,,The person responsible confessed.,0.48976993482674674,0.6316924422031238,True,-0.14192250737637707
+341,341,swb04,0,*,The person confessed responsible.,1.7965540119560852,0.4300579612087938,True,1.3664960507472914
+342,342,swb04,0,*,The cat slept soundly and furry.,1.7965540119560852,1.2543024956872972,False,0.542251516268788
+343,343,swb04,0,*,The soundly and furry cat slept.,1.7965540119560852,1.5582349755649223,False,0.23831903639116292
+344,344,swb04,1,,"Chris walks, Pat eats broccoli, and Sandy plays squash.",0.48976993482674674,0.12062260091969113,True,0.3691473339070556
+345,345,swb04,1,,There was some particular dog who saved every family.,0.48976993482674674,0.1909236254315128,True,0.29884630939523393
+346,346,swb04,1,,Susan frightens her.,0.48976993482674674,0.08182927136040771,True,0.40794066346633906
+347,347,swb04,1,,Susan told her a story.,0.48976993482674674,0.06572891029600257,True,0.42404102453074416
+348,348,swb04,1,,Susan told a story to her.,0.48976993482674674,0.06433036319984936,True,0.4254395716268974
+349,349,swb04,1,,Susan devoted herself to linguistics.,0.48976993482674674,0.10049242309863317,True,0.3892775117281136
+350,350,swb04,1,,Nobody told Susan about herself.,0.48976993482674674,1.6092655547074768,False,-1.11949561988073
+351,351,swb04,1,,That picture of Susan offended her.,0.48976993482674674,0.0757819909061073,True,0.4139879439206394
+352,352,swb04,1,,He offended Sandy.,0.48976993482674674,0.08033812014393475,True,0.409431814682812
+353,353,swb04,0,*,I enjoy yourself.,1.7965540119560852,1.4517566203085326,False,0.34479739164755263
+354,354,swb04,1,,They talk to themselves.,0.48976993482674674,0.17942211734422578,True,0.31034781748252094
+355,355,swb04,1,,Nobody told Susan.,0.48976993482674674,0.18636762960662384,True,0.3034023052201229
+356,356,swb04,1,,Protect yourself!,0.48976993482674674,0.13883365722023489,True,0.35093627760651186
+357,357,swb04,0,*,Protect you!,1.7965540119560852,3.5974758088043064,False,-1.8009217968482212
+358,358,swb04,1,,I met the person who left.,0.48976993482674674,0.06966699673564061,True,0.4201029380911061
+359,359,swb04,1,,Leslie slept.,0.48976993482674674,0.06030377217415726,True,0.42946616265258947
+360,360,swb04,0,*,Chris handed Bo.,1.7965540119560852,0.9492891004639323,True,0.8472649114921529
+361,361,swb04,1,,Dana walked and Leslie ran.,0.48976993482674674,0.10048467876602331,True,0.38928525606072345
+362,362,swb04,0,*,Dana walking and Leslie ran.,1.7965540119560852,0.42213361361274726,True,1.374420398343338
+363,363,swb04,0,*,Dana walking and Leslie running.,1.7965540119560852,0.5704132005199334,True,1.2261408114361518
+364,364,swb04,0,*,the putter of books left.,1.7965540119560852,2.303782622520492,False,-0.5072286105644068
+365,365,swb04,1,,Kris donated a book to the library.,0.48976993482674674,0.06605861683469891,True,0.42371131799204786
+366,366,swb04,1,,The police sprayed the protesters with water.,0.48976993482674674,0.06344643464327154,True,0.4263235001834752
+367,367,swb04,1,,The police sprayed water on the protesters.,0.48976993482674674,0.05969760583865335,True,0.4300723289880934
+368,368,swb04,1,,The students drove cars.,0.48976993482674674,0.06224230877511408,True,0.42752762605163264
+369,369,swb04,1,,These cars drive easily.,0.48976993482674674,0.2668597923840264,True,0.22291014244272034
+370,370,swb04,1,,The horse kicked me black and blue.,0.48976993482674674,0.2731046925362765,True,0.21666524229047024
+371,371,swb04,1,,They yelled.,0.48976993482674674,0.09589500051628583,True,0.39387493431046094
+372,372,swb04,1,,The horse raced past the barn fell.,0.48976993482674674,1.4058768091602691,False,-0.9161068743335223
+373,373,swb04,1,,The horse that was raced past the barn fell.,0.48976993482674674,0.8800800421959425,True,-0.39031010736919575
+374,374,swb04,1,,The boat seen down the river sank.,0.48976993482674674,1.436669992634022,False,-0.9469000578072753
+375,375,swb04,1,,The evidence assembled by the prosecution convinced the jury.,0.48976993482674674,0.24701753930985315,True,0.2427523955168936
+376,376,swb04,1,,Lou forgot the umbrella.,0.48976993482674674,0.11116795563600322,True,0.3786019791907435
+377,377,swb04,1,,Lou forgot the umbrella in the closet.,0.48976993482674674,0.12480786060729337,True,0.36496207421945337
+378,378,swb04,1,,Lou hoped the umbrella was broken.,0.48976993482674674,0.06217012549236617,True,0.4275998093343806
+379,379,swb04,0,*,Lou hoped the umbrella in the closet.,1.7965540119560852,0.5351205138838813,True,1.261433498072204
+380,380,swb04,0,*,Lou put the umbrella was broken.,1.7965540119560852,0.3842832646146087,True,1.4122707473414766
+381,381,swb04,1,,Lou put the umbrella in the closet.,0.48976993482674674,0.0809699406713786,True,0.40879999415536816
+382,382,swb04,1,,The artist drew the child with a pencil.,0.48976993482674674,0.07179240377300744,True,0.4179775310537393
+383,383,swb04,1,,The dog bit the cat.,0.48976993482674674,0.053569587135393684,True,0.4362003476913531
+384,384,swb04,0,*,The cat was bitten the mouse.,1.7965540119560852,0.32286589855206893,True,1.4736881134040163
+385,385,swb04,0,*,The cat was bitten the mouse by the dog.,1.7965540119560852,0.32731256678796594,True,1.4692414451681193
+386,386,swb04,0,*,Chris was handed Sandy a note by Pat.,1.7965540119560852,3.1752374794210767,False,-1.3786834674649915
+387,387,swb04,1,,Chris was handed a note.,0.48976993482674674,0.06922161273593323,True,0.4205483220908135
+388,388,swb04,0,*,Chris was handed Sandy a note.,1.7965540119560852,3.928868946034844,False,-2.1323149340787584
+389,389,swb04,1,,TV puts dumb ideas in children's heads.,0.48976993482674674,0.179779250971729,True,0.3099906838550177
+390,390,swb04,1,,Dumb ideas are put in children's heads by TV.,0.48976993482674674,0.21214385955061693,True,0.2776260752761298
+391,391,swb04,1,,Dumb ideas are put in children's heads.,0.48976993482674674,0.14110780835799486,True,0.3486621264687519
+392,392,swb04,0,*,Dumb ideas are put notions in children's heads by TV.,1.7965540119560852,1.1675554474252492,False,0.628998564530836
+393,393,swb04,1,,The patient died.,0.48976993482674674,0.05346339027616561,True,0.43630654455058115
+394,394,swb04,0,*,The patient was died.,1.7965540119560852,0.37717243135999645,True,1.4193815805960888
+395,395,swb04,0,*,Chris was handed.,1.7965540119560852,0.7200137282530441,True,1.0765402837030411
+396,396,swb04,0,*,TV puts dumb ideas.,1.7965540119560852,1.99602580036315,False,-0.1994717884070647
+397,397,swb04,1,,He was arrested by the police.,0.48976993482674674,0.056038590758970615,True,0.43373134406777614
+398,398,swb04,1,,The cat got bitten.,0.48976993482674674,0.06537300542302896,True,0.42439692940371776
+399,399,swb04,0,*,The cat were bitten by the dog.,1.7965540119560852,2.639362522313923,False,-0.8428085103578378
+400,400,swb04,1,,There is a monster in Loch Ness.,0.48976993482674674,0.1160996350569542,True,0.37367029976979255
+401,401,swb04,1,,It is obvious that Pat is lying.,0.48976993482674674,0.07759008490150458,True,0.41217984992524215
+402,402,swb04,1,,Pat is the captain of the team.,0.48976993482674674,0.08020457118050661,True,0.40956536364624013
+403,403,swb04,0,*,Pat is hate Chris.,1.7965540119560852,0.3586074934406844,True,1.4379465185154008
+404,404,swb04,1,,There is a unicorn in the garden.,0.48976993482674674,0.09124118605484889,True,0.39852874877189787
+405,405,swb04,1,,There was a felon elected to the city council.,0.48976993482674674,0.22118051014057213,True,0.26858942468617464
+406,406,swb04,1,,There is a seat available.,0.48976993482674674,0.1679515824573437,True,0.32181835236940304
+407,407,swb04,0,*,A seat available was in the last row.,1.7965540119560852,0.5977278551122125,True,1.1988261568438727
+408,408,swb04,1,,Many people were fond of Pat.,0.48976993482674674,0.08205435591925656,True,0.4077155789074902
+409,409,swb04,1,,People are looking through the window.,0.48976993482674674,0.05393633875239295,True,0.4358335960743538
+410,410,swb04,1,,A felon was elected to the city council.,0.48976993482674674,0.0675615675210369,True,0.4222083673057099
+411,411,swb04,0,*,There loved Sandy.,1.7965540119560852,0.36342681960646694,True,1.4331271923496183
+412,412,swb04,0,*,We talked to them about there.,1.7965540119560852,0.4119778496502431,True,1.3845761623058421
+413,413,swb04,1,,It mattered that the Giants had lost.,0.48976993482674674,0.6379905209789887,True,-0.14822058615224193
+414,414,swb04,1,,That dogs bark annoys people.,0.48976993482674674,0.15782433858642114,True,0.3319455962403256
+415,415,swb04,1,,It annoys people that dogs bark.,0.48976993482674674,0.07191794531292817,True,0.4178519895138186
+416,416,swb04,1,,That Chris knew the answer occurred to Pat.,0.48976993482674674,0.2865818086443059,True,0.20318812618244086
+417,417,swb04,1,,It never occurred to Pat that Chris knew the answer.,0.48976993482674674,0.16159979440938915,True,0.3281701404173576
+418,418,swb04,1,,That the Cardinal won the game gave Sandy a thrill.,0.48976993482674674,0.12851339029927059,True,0.36125654452747613
+419,419,swb04,1,,It gave Sandy a thrill that the Cardinal won the game.,0.48976993482674674,0.36435582351022255,True,0.1254141113165242
+420,420,swb04,0,*,That Sandy had lied suggested.,1.7965540119560852,0.5302449202574653,True,1.26630909169862
+421,421,swb04,0,*,It loved Sandy.,1.7965540119560852,2.1854449140679475,False,-0.3888909021118623
+422,422,swb04,1,,Cohen proved the independence of the continuum hypothesis.,0.48976993482674674,0.08881696388448483,True,0.4009529709422619
+423,423,swb04,1,,Cohen proved that the continuum hypothesis was independent.,0.48976993482674674,0.0919405794138092,True,0.3978293554129375
+424,424,swb04,1,,We forgot our invitations.,0.48976993482674674,0.07082901693857199,True,0.4189409178881748
+425,425,swb04,1,,Nobody saw Pat.,0.48976993482674674,0.08776601939854402,True,0.40200391542820274
+426,426,swb04,1,,That Fido barks annoys me.,0.48976993482674674,1.0491832982823135,False,-0.5594133634555667
+427,427,swb04,1,,Fido barks.,0.48976993482674674,1.1317674880655624,False,-0.6419975532388156
+428,428,swb04,1,,Chris dreads the bucket.,0.48976993482674674,0.14789192135698953,True,0.3418780134697572
+429,429,swb04,1,,The candidates bring advantage to the voters.,0.48976993482674674,0.8005578448110033,True,-0.3107879099842566
+430,430,swb04,1,,Tabs are kept on suspected drug dealers by the FBI.,0.48976993482674674,0.1014918830007345,True,0.38827805182601227
+431,431,swb04,1,,Advantage is taken of every opportunity for improvement.,0.48976993482674674,0.5406503099699199,True,-0.05088037514317317
+432,432,swb04,1,,The bucket was kicked by Pat.,0.48976993482674674,0.10390461595320218,True,0.3858653188735446
+433,433,w_80,1,,John is sad.,0.48976993482674674,0.05814167238288617,True,0.43162826244386054
+434,434,w_80,1,,John loaded the wagon full with hay.,0.48976993482674674,0.12907591901553342,True,0.3606940158112133
+435,435,w_80,0,*,John loaded the wagon with hay green.,1.7965540119560852,0.8495591481875032,True,0.946994863768582
+436,436,w_80,0,*,I presented John with it dead.,1.7965540119560852,0.5611516866718509,True,1.2354023252842343
+437,437,w_80,1,,Of whom are you thinking?,0.48976993482674674,0.26487889447471313,True,0.2248910403520336
+438,438,w_80,1,,John became rich.,0.48976993482674674,0.07314646072419602,True,0.41662347410255074
+439,439,w_80,1,,I gave John gold apples.,0.48976993482674674,0.43967194759655215,True,0.050097987230194596
+440,440,w_80,1,,how silly is Bill considered?,0.48976993482674674,0.27802042446693137,True,0.21174951035981537
+441,441,w_80,1,,how mad was Bill made?,0.48976993482674674,0.5217767095314768,True,-0.03200677470473007
+442,442,w_80,1,,John is sick.,0.48976993482674674,0.05277294438859371,True,0.43699699043815304
+443,443,w_80,1,,John left singing.,0.48976993482674674,0.07278890238027966,True,0.4169810324464671
+444,444,w_80,1,,John is near Larry.,0.48976993482674674,0.08893119142988884,True,0.4008387433968579
+445,445,w_80,1,,John gave Bill the dog dead.,0.48976993482674674,0.9678145018029627,True,-0.47804456697621595
+446,446,w_80,0,*,Bill was struck by John as stupid.,1.7965540119560852,1.4852836587174236,False,0.3112703532386616
+447,447,w_80,0,*,John was struck as sick.,1.7965540119560852,1.0649177011942725,False,0.7316363107618127
+448,448,w_80,1,,John was struck by Bill's idiocy.,0.48976993482674674,0.09289350206200168,True,0.39687643276474505
+449,449,w_80,1,,John promised Bill to leave.,0.48976993482674674,0.33007160465735763,True,0.1596983301693891
+450,450,w_80,1,,John tried to leave.,0.48976993482674674,0.05879599904947785,True,0.4309739357772689
+451,451,w_80,1,,To leave would be a pleasure.,0.48976993482674674,0.06984461119826445,True,0.4199253236284823
+452,452,w_80,0,*,John was struck by Bill as pompous.,1.7965540119560852,1.449353248697962,False,0.3472007632581233
+453,453,w_80,0,*,John was promised by Bill to leave.,1.7965540119560852,1.3284270804704255,False,0.46812693148565976
+454,454,w_80,1,,They make good cooks.,0.48976993482674674,0.27108158655262915,True,0.2186883482741176
+455,455,w_80,1,,there is nothing to do.,0.48976993482674674,0.07009274849905929,True,0.41967718632768747
+456,456,w_80,1,,John has something for Bill to do.,0.48976993482674674,0.11037266257998486,True,0.3793972722467619
+457,457,w_80,1,,I am counting on Bill to incriminate himself.,0.48976993482674674,0.4799238985261821,True,0.009846036300564631
+458,458,w_80,1,,On whom are you counting to incriminate himself?,0.48976993482674674,0.8111520676415611,True,-0.32138213281481437
+459,459,w_80,1,,I am counting on Bill to get there on time.,0.48976993482674674,0.577894159138559,True,-0.08812422431181227
+460,460,w_80,1,,I would prefer to leave.,0.48976993482674674,0.06334094589424326,True,0.42642898893250347
+461,461,w_80,1,,I would hate for John to leave.,0.48976993482674674,0.14984531284735797,True,0.3399246219793888
+462,462,w_80,1,,I would prefer for John to leave.,0.48976993482674674,0.08828325974209716,True,0.4014866750846496
+463,463,w_80,0,*,It was hated for John to leave.,1.7965540119560852,1.1489466092240979,False,0.6476074027319874
+464,464,w_80,0,*,John decided for Bill to get the prize.,1.7965540119560852,0.7107617632409817,True,1.0857922487151035
+465,465,w_80,0,*,John decided Bill to get the prize.,1.7965540119560852,0.3849602115575433,True,1.411593800398542
+466,466,w_80,1,,to die is no fun.,0.48976993482674674,0.1571643799396383,True,0.3326055548871084
+467,467,w_80,1,,John wants to leave.,0.48976993482674674,0.051224991822390334,True,0.4385449430043564
+468,468,w_80,1,,John counted on Bill to get there on time.,0.48976993482674674,0.9369211288395014,True,-0.44715119401275466
+469,469,w_80,1,,I bought Bill a book to read.,0.48976993482674674,0.1598130405402269,True,0.32995689428651986
+470,470,w_80,1,,John told Mary that it would be important to leave early.,0.48976993482674674,0.08139813180452199,True,0.40837180302222476
+471,471,w_80,1,,John told Mary that it was important to Fred to leave early.,0.48976993482674674,0.13585457668814963,True,0.3539153581385971
+472,472,w_80,1,,"John, told Mary that it would be appropriate to leave together.",0.48976993482674674,0.5310086207508922,True,-0.041238685924145424
+473,473,w_80,0,*,the election of John president surprised me.,1.7965540119560852,1.2976352552125014,False,0.49891875674358377
+474,474,w_80,1,,John's arriving dead surprised me.,0.48976993482674674,1.5045360298556893,False,-1.0147660950289425
+475,475,w_80,1,,the attempt by John to leave surprised me.,0.48976993482674674,0.5161430243515384,True,-0.026373089524791615
+476,476,w_80,1,,John left orders to follow Pete.,0.48976993482674674,0.4063446790554779,True,0.08342525577126886
+477,477,w_80,1,,John left us orders to follow Pete.,0.48976993482674674,0.9910581848241915,True,-0.5012882499974447
+478,478,w_80,1,,John left orders not to be disturbed.,0.48976993482674674,0.46255087321052046,True,0.02721906161622628
+479,479,w_80,1,,That he is here is clear.,0.48976993482674674,0.21774980378967568,True,0.27202013103707107
+480,480,w_80,1,,It is a problem that he is here.,0.48976993482674674,0.5681892315178081,True,-0.07841929669106135
+481,481,w_80,1,,It bothers me that he is here.,0.48976993482674674,0.12039225968137832,True,0.36937767514536846
+482,482,w_80,1,,John regretted it that Bill had a good time.,0.48976993482674674,1.8221575856833905,False,-1.3323876508566437
+483,483,w_80,0,*,John believes it that Bill is here.,1.7965540119560852,0.5281710074019844,True,1.2683830045541007
+484,484,w_80,0,*,John believes it sincerely that Bill is here.,1.7965540119560852,1.3209549798483082,False,0.475599032107777
+485,485,w_80,0,*,John is aware of it that Bill is here.,1.7965540119560852,0.8547589375855333,True,0.9417950743705519
+486,486,w_80,0,*,John felt it that Bill was tardy.,1.7965540119560852,0.4803659065481994,True,1.3161881054078859
+487,487,w_80,0,*,John believed it that Bill was tardy.,1.7965540119560852,0.5454437815397466,True,1.2511102304163386
+488,488,w_80,1,,It was believed that Bill was tardy.,0.48976993482674674,0.693567080126209,True,-0.2037971452994623
+489,489,w_80,0,*,That John is reluctant seems.,1.7965540119560852,0.41449276109599453,True,1.3820612508600907
+490,490,w_80,0,*,It is the problem that he is here.,1.7965540119560852,1.9855869969296382,False,-0.18903298497355303
+491,491,w_80,1,,That he is here is the problem.,0.48976993482674674,0.3999827663476854,True,0.08978716847906132
+492,492,w_80,1,,The problem we are discussing is George.,0.48976993482674674,1.2142595978926911,False,-0.7244896630659443
+493,493,w_80,0,*,It is to give up to leave.,1.7965540119560852,1.1513892841940454,False,0.6451647277620398
+494,494,w_80,1,,It would prove our theory to be untenable for carrots to be vegetables.,0.48976993482674674,0.2585761159881889,True,0.23119381883855783
+495,495,w_80,0,*,It was believed to be illegal by them to do that.,1.7965540119560852,1.561394547023702,False,0.23515946493238316
+496,496,w_80,1,,John grudgingly accepted judgments of his incompetence as an auto mechanic.,0.48976993482674674,0.3118316645047819,True,0.17793827032196485
+497,497,w_80,1,,It was to John that I gave the book.,0.48976993482674674,0.228606044245914,True,0.2611638905808328
+498,498,w_80,1,,I bought it to read.,0.48976993482674674,0.5845849622144752,True,-0.09481502738772846
+499,499,w_80,1,,I bought it to give to Pete.,0.48976993482674674,0.21333093863716596,True,0.2764389961895808
+500,500,w_80,1,,I gave it to Pete to take to the fair.,0.48977005557757064,0.3526727838321365,True,0.13709727174543412
+501,501,w_80,0,*,I gave Pete the book to impress.,1.7965540119560852,2.771591851516611,False,-0.9750378395605257
+502,502,w_80,1,,I wrote to Bill.,0.48977005557757064,0.08825939990531952,True,0.40151065567225114
+503,503,w_80,1,,I presented it to Bill to read.,0.48977005557757064,0.4734488242037222,True,0.016321231373848444
+504,504,w_80,0,*,I presented Bill with it to read.,1.7965540119560852,0.6259728945225409,True,1.1705811174335443
+505,505,w_80,1,,I gave a book to Bill to read.,0.48977005557757064,0.2641338281766633,True,0.22563622740090733
+506,506,w_80,1,,John thinks it would upset himself to die.,0.48977005557757064,0.18969353554773946,True,0.3000765200298312
+507,507,w_80,1,,John made Bill mad at himself.,0.48977005557757064,0.6027994673754086,True,-0.11302941179783793
+508,508,w_80,1,,John made Bill master of himself.,0.48977005557757064,0.9569159616168654,True,-0.4671459060392948
+509,509,w_80,1,,The correspondence school made Bill a good typist.,0.48977005557757064,0.19298525058935545,True,0.2967848049882152
+510,510,w_80,1,,The correspondence school sent Bill a good typist.,0.48977005557757064,0.22497683931918064,True,0.26479321625839003
+511,511,w_80,1,,John considers Bill silly.,0.48977005557757064,0.22199267438749365,True,0.267777381190077
+512,512,w_80,1,,John considers Bill to be silly.,0.48977005557757064,0.10455766154879755,True,0.3852123940287731
+513,513,w_80,0,*,John bought a dog for himself to play with.,1.7965540119560852,3.482984386024153,False,-1.686430374068068
+514,514,w_80,1,,John arranged for himself to get the prize.,0.48977005557757064,0.5737864410418678,True,-0.08401638546429718
+515,515,w_80,1,,John talked to Bill about himself.,0.48977005557757064,1.7443077827307785,False,-1.2545377271532079
