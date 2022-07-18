@@ -100,11 +100,19 @@ The `data` directory contains the MultiNLI, CoLA, and DWMW17 datasets with vario
 ## Citation 
 
 ```
-@article{ethayarajh2021information,
-  title={Information-theoretic measures of dataset difficulty},
-  author={Ethayarajh, Kawin and Choi, Yejin and Swayamdipta, Swabha},
-  journal={arXiv preprint arXiv:2110.08420},
-  year={2021}
+@InProceedings{pmlr-v162-ethayarajh22a,
+  title = 	 {Understanding Dataset Difficulty with $\mathcal{V}$-Usable Information},
+  author =       {Ethayarajh, Kawin and Choi, Yejin and Swayamdipta, Swabha},
+  booktitle = 	 {Proceedings of the 39th International Conference on Machine Learning},
+  pages = 	 {5988--6008},
+  year = 	 {2022},
+  editor = 	 {Chaudhuri, Kamalika and Jegelka, Stefanie and Song, Le and Szepesvari, Csaba and Niu, Gang and Sabato, Sivan},
+  volume = 	 {162},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {17--23 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://proceedings.mlr.press/v162/ethayarajh22a/ethayarajh22a.pdf},
+  url = 	 {https://proceedings.mlr.press/v162/ethayarajh22a.html}
 }
 ```
 
