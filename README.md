@@ -1,4 +1,4 @@
-# Understanding Dataset Difficulty with V-Usable Information (ICML 2022, long talk)
+# Understanding Dataset Difficulty with V-Usable Information (ICML 2022, outstanding paper)
 
 Link to Paper: https://arxiv.org/abs/2110.08420
 
