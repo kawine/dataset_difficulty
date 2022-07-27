@@ -213,7 +213,7 @@ if __name__ == "__main__":
             v_info(f"data/dwmw_{experiment}.csv", f"{MODEL_DIR}/{model_name}_dwmw_{experiment}", f"data/dwmw_null.csv", f"{MODEL_DIR}/{model_name}_dwmw_null",
                     tokenizer, out_fn=f"PVI/{model_name}_dwmw_{experiment}.csv")
 
-        v_info(f"data/dwmw_sentiment_vocab.csv", f"{MODEL_DIR}/{model_name}_dwmw_sentiment_vocab", f"data/dwmw_sentiment.csv", f"{MODEL_DIR}/model_name}_dwmw_sentiment",
+        v_info(f"data/dwmw_sentiment_vocab.csv", f"{MODEL_DIR}/{model_name}_dwmw_sentiment_vocab", f"data/dwmw_sentiment.csv", f"{MODEL_DIR}/{model_name}_dwmw_sentiment",
             tokenizer, out_fn=f"PVI/{model_name}_dwmw_sentiment_vocab.csv")
         
         # SNLI
