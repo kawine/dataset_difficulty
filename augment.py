@@ -121,7 +121,7 @@ class COLATransformation(object):
 
 
 class SNLIStandardTransformation(SNLITransformation):
-    def __init__(self, output_dir, train_size, suffix=''):
+    def __init__(self, output_dir, train_size=1, suffix=''):
         super().__init__(f'std{suffix}', output_dir, train_size=train_size)
 
     def transformation(self, example):
@@ -130,7 +130,7 @@ class SNLIStandardTransformation(SNLITransformation):
 
 
 class SNLINullTransformation(SNLITransformation):
-    def __init__(self, output_dir, train_size, suffix=''):
+    def __init__(self, output_dir, train_size=1, suffix=''):
         super().__init__(f'null{suffix}', output_dir, train_size=train_size)
 
     def transformation(self, example):
