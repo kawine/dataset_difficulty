@@ -10,7 +10,7 @@ import argparse
 parser = argparse.ArgumentParser()
 
 
-def v_entropy(data_fn, model, tokenizer, input_key='sentence1', batch_size=100):
+def v_entropy(data_fn, model, tokenizer, input_key='sentence1', input_key2='sentence2', batch_size=100):
     """
     Calculate the V-entropy (in bits) on the data given in data_fn. This can be
     used to calculate both the V-entropy and conditional V-entropy (for the
@@ -22,12 +22,14 @@ def v_entropy(data_fn, model, tokenizer, input_key='sentence1', batch_size=100):
         model: path to saved model or model name in HuggingFace library
         tokenizer: path to tokenizer or tokenizer name in HuggingFace library
         input_key: column name of X variable in data_fn
+        input_key2: column name of second variable of X in data_fn
         batch_size: data batch_size
 
     Returns:
         Tuple of (V-entropies, correctness of predictions, predicted labels).
         Each is a List of n entries (n = number of examples in data_fn).
     """
+
     # added for gpt2 
     if tokenizer == 'gpt2':
         tokenizer = AutoTokenizer.from_pretrained(tokenizer)
@@ -57,7 +59,7 @@ def v_entropy(data_fn, model, tokenizer, input_key='sentence1', batch_size=100):
     return entropies, correct, predicted_labels
 
 
-def v_info(data_fn, model, null_data_fn, null_model, tokenizer, out_fn="", input_key='sentence1'):
+def v_info(data_fn, model, null_data_fn, null_model, tokenizer, out_fn="", input_key='sentence1', input_key2='sentence2'):
     """
     Calculate the V-entropy, conditional V-entropy, and V-information on the
     data in data_fn. Add these columns to the data in data_fn and return as a 
@@ -70,11 +72,11 @@ def v_info(data_fn, model, null_data_fn, null_model, tokenizer, out_fn="", input
         data_fn: path to data; should contain the label in the 'label' column 
             and X in column specified by input_key
         model: path to saved model or model name in HuggingFace library
-        null_data: path to null data (column specified by input_key should have
+        null_data_fn: path to null data (column specified by input_key should have
             null data)
         null_model: path to saved model trained on null data
         tokenizer: path to tokenizer or tokenizer name in HuggingFace library
-        out_fn: where to saved 
+        out_fn: where to save
         input_key: column name of X variable in data_fn 
 
     Returns:
@@ -82,8 +84,8 @@ def v_info(data_fn, model, null_data_fn, null_model, tokenizer, out_fn="", input
         columns specified above.
     """
     data = pd.read_csv(data_fn)
-    data['H_yb'], _, _ = v_entropy(null_data_fn, null_model, tokenizer, input_key=input_key) 
-    data['H_yx'], data['correct_yx'], data['predicted_label'] = v_entropy(data_fn, model, tokenizer, input_key=input_key)
+    data['H_yb'], _, _ = v_entropy(null_data_fn, null_model, tokenizer, input_key=input_key, input_key2=input_key2) 
+    data['H_yx'], data['correct_yx'], data['predicted_label'] = v_entropy(data_fn, model, tokenizer, input_key=input_key, input_key2=input_key2)
     data['PVI'] = data['H_yb'] - data['H_yx']
 
     if out_fn:

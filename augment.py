@@ -13,17 +13,78 @@ import re
 import pandas as pd
 import random
 import logging
+from typing import Optional
 from datasets import load_dataset
 from transformers import AutoTokenizer
 import argparse
 
 parser = argparse.ArgumentParser()
 
-import spacy
-from spacytextblob.spacytextblob import SpacyTextBlob
-nlp = spacy.load('en_core_web_sm')
-nlp.add_pipe('spacytextblob')
+#import spacy
+#from spacytextblob.spacytextblob import SpacyTextBlob
+#nlp = spacy.load('en_core_web_sm')
+#nlp.add_pipe('spacytextblob')
 
+class FEVERTransformation(object):
+    """
+    Parent class for transforming the FEVER (CsFEVER, CsFEVER_NLI, CsFEVERv2, CTKFacts, CTKFacts_NLI) input to extract some particular input
+    attribute (e.g., just the hypothesis by leaving out the premise).
+    """
+    def __init__(self, name: str, dataset_name_or_path: str, output_dir: str, dataset_subset: Optional[str]=None, train_size=1.0):
+        """
+        Args:
+            name: Transformation name
+            output_dir: where to save the CSV with the transformed attribute
+            train_size: fraction of the training data to use
+        """
+        if dataset_subset is not None:
+            self.train_data = load_dataset(dataset_name_or_path, dataset_subset, split='train')
+            self.validation_data = load_dataset(dataset_name_or_path, dataset_subset, split="validation")
+            self.test_data = load_dataset(dataset_name_or_path, dataset_subset, split='test')
+        else:
+            self.train_data = load_dataset(dataset_name_or_path, split='train')
+            self.validation_data = load_dataset(dataset_name_or_path, split="validation")
+            self.test_data = load_dataset(dataset_name_or_path, split='test')
+
+        self.name = name
+        self.output_dir = output_dir
+        self.train_size = train_size
+
+
+    def transformation(self, example):
+        raise NotImplementedError
+
+    def transform(self):
+        logging.info(f'Applying {self.name} to FEVER')
+
+        if self.train_size < 1:
+            train_data = self.train_data.train_test_split(train_size=self.train_size)['train']
+        else:
+            train_data = self.train_data
+
+        train_data.map(self.transformation).to_csv(os.path.join(self.output_dir, f'fever_train_{self.name}' + (f'_{self.train_size}' if self.train_size < 1.0 else '') + '.csv'))
+        self.validation_data.map(self.transformation).to_csv(os.path.join(self.output_dir, f'fever_dev_{self.name}.csv'))
+        self.test_data.map(self.transformation).to_csv(os.path.join(self.output_dir, f'fever_test_{self.name}.csv'))
+
+
+class FEVERStandardTransformation(FEVERTransformation):
+    def __init__(self, dataset_name_or_path, output_dir, dataset_subset: Optional[str]=None, train_size=1, suffix=''):
+        super().__init__(f'std{suffix}', dataset_name_or_path, output_dir, train_size=train_size)
+
+    def transformation(self, example):
+        example['sentence1'] = example["claim"]
+        example["sentence2"] = example["evidence"]
+        return example
+
+
+class FEVERNullTransformation(FEVERTransformation):
+    def __init__(self, dataset_name_or_path, output_dir, dataset_subset: Optional[str]=None, train_size=1, suffix=''):
+        super().__init__(f'null{suffix}', dataset_name_or_path, output_dir, train_size=train_size)
+
+    def transformation(self, example):
+        example['sentence1'] = " " # using only empty string can yield problems
+        example["sentence2"] = " "
+        return example
 
 class SNLITransformation(object):
     """
@@ -283,47 +344,47 @@ class DWMWVocabTransformation(DWMWTransformation):
         return example
 
 
-class DWMWSentimentVocabTransformation(DWMWTransformation):
-    def __init__(self, output_dir):
-        super().__init__('sentiment_vocab', output_dir)
-        self.bad_vocab = DWMWVocabTransformation(output_dir)
+#class DWMWSentimentVocabTransformation(DWMWTransformation):
+#    def __init__(self, output_dir):
+#        super().__init__('sentiment_vocab', output_dir)
+#        self.bad_vocab = DWMWVocabTransformation(output_dir)
+#
+#    def transformation(self, example):
+#        polarity = nlp(example['sentence1'])._.polarity 
+#
+#        if -0.10 <= polarity <= 0.10:
+#            sentiment = 'neutral'
+#        elif polarity > 0.10:
+#            sentiment = 'positive'
+#        else:
+#            sentiment = 'negative'
+#
+#        example['sentence1'] = ' '.join([sentiment, self.bad_vocab.transformation(example)['sentence1']])
+#
+#        if example['sentence1'] == "":
+#            example['sentence1'] = ' ' #using only empty string can yield problems
+#
+#        return example
 
-    def transformation(self, example):
-        polarity = nlp(example['sentence1'])._.polarity 
 
-        if -0.10 <= polarity <= 0.10:
-            sentiment = 'neutral'
-        elif polarity > 0.10:
-            sentiment = 'positive'
-        else:
-            sentiment = 'negative'
-
-        example['sentence1'] = ' '.join([sentiment, self.bad_vocab.transformation(example)['sentence1']])
-
-        if example['sentence1'] == "":
-            example['sentence1'] = ' ' #using only empty string can yield problems
-
-        return example
-
-
-class DWMWSentimentTransformation(DWMWTransformation):
-    def __init__(self, output_dir):
-        super().__init__('sentiment', output_dir)
-        self.bad_vocab = DWMWVocabTransformation(output_dir)
-
-    def transformation(self, example):
-        polarity = nlp(example['sentence1'])._.polarity 
-
-        if -0.10 <= polarity <= 0.10:
-            sentiment = 'neutral'
-        elif polarity > 0.10:
-            sentiment = 'positive'
-        else:
-            sentiment = 'negative'
-
-        example['sentence1'] = sentiment
-
-        return example
+#class DWMWSentimentTransformation(DWMWTransformation):
+#    def __init__(self, output_dir):
+#        super().__init__('sentiment', output_dir)
+#        self.bad_vocab = DWMWVocabTransformation(output_dir)
+#
+#    def transformation(self, example):
+#        polarity = nlp(example['sentence1'])._.polarity 
+#
+#        if -0.10 <= polarity <= 0.10:
+#            sentiment = 'neutral'
+#        elif polarity > 0.10:
+#            sentiment = 'positive'
+#        else:
+#            sentiment = 'negative'
+#
+#        example['sentence1'] = sentiment
+#
+#        return example
 
 class COLAStandardTransformation(COLATransformation):
     def __init__(self, output_dir, train_size=1):
