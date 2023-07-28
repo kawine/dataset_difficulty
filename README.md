@@ -1,4 +1,4 @@
-# Understanding Dataset Difficulty with V-Usable Information (ICML 2022, outstanding paper)
+# Understanding Dataset Difficulty with V-Usable Information (ICML 2022, outstanding paper) - AIC FEE CTU version
 
 Link to Paper: https://arxiv.org/abs/2110.08420
 
