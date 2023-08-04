@@ -69,7 +69,7 @@ class FEVERTransformation(object):
 
 class FEVERStandardTransformation(FEVERTransformation):
     def __init__(self, dataset_name_or_path, output_dir, dataset_subset: Optional[str]=None, train_size=1, suffix=''):
-        super().__init__(f'std{suffix}', dataset_name_or_path, output_dir, train_size=train_size)
+        super().__init__(f'std{suffix}', dataset_name_or_path, output_dir, dataset_subset=dataset_subset, train_size=train_size)
 
     def transformation(self, example):
         example['sentence1'] = example["claim"]
@@ -79,7 +79,7 @@ class FEVERStandardTransformation(FEVERTransformation):
 
 class FEVERNullTransformation(FEVERTransformation):
     def __init__(self, dataset_name_or_path, output_dir, dataset_subset: Optional[str]=None, train_size=1, suffix=''):
-        super().__init__(f'null{suffix}', dataset_name_or_path, output_dir, train_size=train_size)
+        super().__init__(f'null{suffix}', dataset_name_or_path, output_dir, dataset_subset=dataset_subset, train_size=train_size)
 
     def transformation(self, example):
         example['sentence1'] = " " # using only empty string can yield problems

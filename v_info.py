@@ -1,16 +1,45 @@
-from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
-from tokenizers.pre_tokenizers import Whitespace
-import os
-import torch
-import pandas as pd
-import numpy as np
-from tqdm import tqdm
 import argparse
+import os
+
+import numpy as np
+import pandas as pd
+import torch
+from tokenizers.pre_tokenizers import Whitespace
+from tqdm import tqdm
+from transformers import (AutoModelForSequenceClassification, AutoTokenizer,
+                          Pipeline, pipeline)
 
 parser = argparse.ArgumentParser()
 
+def softmax(_outputs):
+    maxes = np.max(_outputs, axis=-1, keepdims=True)
+    shifted_exp = np.exp(_outputs - maxes)
+    return shifted_exp / shifted_exp.sum(axis=-1, keepdims=True)
 
-def v_entropy(data_fn, model, tokenizer, input_key='sentence1', input_key2='sentence2', batch_size=100):
+class NliPipeline(Pipeline):
+    def _sanitize_parameters(self, **kwargs):
+        preprocess_kwargs = {}
+        return preprocess_kwargs, {}, {}
+
+    def preprocess(self, claim_evidence):
+        model_input = self.tokenizer(claim_evidence[0], claim_evidence[1], return_tensors=self.framework, truncation=True)
+        return model_input
+    def _forward(self, model_inputs):
+        outputs = self.model(**model_inputs)
+        return outputs
+
+    def postprocess(self, model_outputs):
+        logits = model_outputs.logits[0].numpy()
+        
+        scores = softmax(logits)
+
+        dict_scores = [
+            {"label": i, "score": score.item()} for i, score in enumerate(scores)
+        ]
+        return dict_scores
+
+
+def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_key2:str ='sentence2', batch_size:int =100):
     """
     Calculate the V-entropy (in bits) on the data given in data_fn. This can be
     used to calculate both the V-entropy and conditional V-entropy (for the
@@ -36,7 +65,13 @@ def v_entropy(data_fn, model, tokenizer, input_key='sentence1', input_key2='sent
         tokenizer.pad_token = tokenizer.eos_token
         model = AutoModelForSequenceClassification.from_pretrained(model, pad_token_id=tokenizer.eos_token_id)
 
-    classifier = pipeline('text-classification', model=model, tokenizer=tokenizer, return_all_scores=True, device=0)
+    if input_key2 is not None:
+        tokenizer = AutoTokenizer.from_pretrained(tokenizer, truncation=True)
+        model = AutoModelForSequenceClassification.from_pretrained(model)
+        classifier = NliPipeline(model=model, tokenizer=tokenizer, device=0)
+    else:
+        classifier = pipeline('text-classification', model=model, tokenizer=tokenizer, return_all_scores=True, device=0)
+    
     data = pd.read_csv(data_fn)
     
     entropies = []
@@ -45,7 +80,10 @@ def v_entropy(data_fn, model, tokenizer, input_key='sentence1', input_key2='sent
 
     for j in tqdm(range(0, len(data), batch_size)):
         batch = data[j:j+batch_size]
-        predictions = classifier(batch[input_key].tolist())
+        if input_key2 is not None:
+            predictions = classifier(list(zip(batch[input_key].tolist(), batch[input_key2].tolist())))
+        else:
+            predictions = classifier(batch[input_key].tolist())
 
         for i in range(len(batch)):
             prob = next(d for d in predictions[i] if d['label'] == batch.iloc[i]['label'])['score']
