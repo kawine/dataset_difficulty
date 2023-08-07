@@ -8,6 +8,7 @@ from tokenizers.pre_tokenizers import Whitespace
 from tqdm import tqdm
 from transformers import (AutoModelForSequenceClassification, AutoTokenizer,
                           Pipeline, pipeline)
+from peft import PeftConfig, PeftModel
 
 parser = argparse.ArgumentParser()
 
@@ -39,7 +40,7 @@ class NliPipeline(Pipeline):
         return dict_scores
 
 
-def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_key2:str ='sentence2', batch_size:int =100):
+def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_key2:str ='sentence2', batch_size:int =100, use_lora:bool=False):
     """
     Calculate the V-entropy (in bits) on the data given in data_fn. This can be
     used to calculate both the V-entropy and conditional V-entropy (for the
@@ -55,7 +56,7 @@ def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_
         batch_size: data batch_size
 
     Returns:
-        Tuple of (V-entropies, correctness of predictions, predicted labels).
+        Tuple of (V-entropies, correctness of predictions, predicted labels, predicted scores).
         Each is a List of n entries (n = number of examples in data_fn).
     """
 
@@ -66,8 +67,15 @@ def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_
         model = AutoModelForSequenceClassification.from_pretrained(model, pad_token_id=tokenizer.eos_token_id)
 
     if input_key2 is not None:
-        tokenizer = AutoTokenizer.from_pretrained(tokenizer, truncation=True)
-        model = AutoModelForSequenceClassification.from_pretrained(model)
+        if use_lora:
+            config = PeftConfig.from_pretrained(model)
+            inference_model = AutoModelForSequenceClassification.from_pretrained(config.base_model_name_or_path, num_labels=3)
+            tokenizer = AutoTokenizer.from_pretrained(config.base_model_name_or_path)
+            model = PeftModel.from_pretrained(inference_model, model)
+        else:
+            model = AutoModelForSequenceClassification.from_pretrained(model)
+            tokenizer = AutoTokenizer.from_pretrained(tokenizer, truncation=True)
+
         classifier = NliPipeline(model=model, tokenizer=tokenizer, device=0)
     else:
         classifier = pipeline('text-classification', model=model, tokenizer=tokenizer, return_all_scores=True, device=0)
@@ -77,6 +85,7 @@ def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_
     entropies = []
     correct = []
     predicted_labels = []
+    scores = []
 
     for j in tqdm(range(0, len(data), batch_size)):
         batch = data[j:j+batch_size]
@@ -87,6 +96,7 @@ def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_
 
         for i in range(len(batch)):
             prob = next(d for d in predictions[i] if d['label'] == batch.iloc[i]['label'])['score']
+            scores.append(prob)
             entropies.append(-1 * np.log2(prob))
             predicted_label = max(predictions[i], key=lambda x: x['score'])['label'] 
             predicted_labels.append(predicted_label)
@@ -94,10 +104,10 @@ def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_
 
     torch.cuda.empty_cache()
 
-    return entropies, correct, predicted_labels
+    return entropies, correct, predicted_labels, scores
 
 
-def v_info(data_fn, model, null_data_fn, null_model, tokenizer, out_fn="", input_key='sentence1', input_key2='sentence2'):
+def v_info(data_fn, model, null_data_fn, null_model, tokenizer, out_fn="", input_key='sentence1', input_key2='sentence2', use_lora:bool = False):
     """
     Calculate the V-entropy, conditional V-entropy, and V-information on the
     data in data_fn. Add these columns to the data in data_fn and return as a 
@@ -122,8 +132,8 @@ def v_info(data_fn, model, null_data_fn, null_model, tokenizer, out_fn="", input
         columns specified above.
     """
     data = pd.read_csv(data_fn)
-    data['H_yb'], _, _ = v_entropy(null_data_fn, null_model, tokenizer, input_key=input_key, input_key2=input_key2) 
-    data['H_yx'], data['correct_yx'], data['predicted_label'] = v_entropy(data_fn, model, tokenizer, input_key=input_key, input_key2=input_key2)
+    data['H_yb'], _, _, _ = v_entropy(null_data_fn, null_model, tokenizer, input_key=input_key, input_key2=input_key2, use_lora=use_lora) 
+    data['H_yx'], data['correct_yx'], data['predicted_label'], data['predicted_score'] = v_entropy(data_fn, model, tokenizer, input_key=input_key, input_key2=input_key2, use_lora=use_lora)
     data['PVI'] = data['H_yb'] - data['H_yx']
 
     if out_fn:
