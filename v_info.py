@@ -85,7 +85,7 @@ def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_
     entropies = []
     correct = []
     predicted_labels = []
-    scores = []
+    predicted_scores = []
 
     for j in tqdm(range(0, len(data), batch_size)):
         batch = data[j:j+batch_size]
@@ -96,15 +96,17 @@ def v_entropy(data_fn: str, model, tokenizer, input_key:str ='sentence1', input_
 
         for i in range(len(batch)):
             prob = next(d for d in predictions[i] if d['label'] == batch.iloc[i]['label'])['score']
-            scores.append(prob)
             entropies.append(-1 * np.log2(prob))
-            predicted_label = max(predictions[i], key=lambda x: x['score'])['label'] 
+            max_point = max(predictions[i], key=lambda x: x['score'])
+            predicted_score = max_point['score']
+            predicted_label = max_point['label'] 
             predicted_labels.append(predicted_label)
+            predicted_scores.append(predicted_score)
             correct.append(predicted_label == batch.iloc[i]['label'])
 
     torch.cuda.empty_cache()
 
-    return entropies, correct, predicted_labels, scores
+    return entropies, correct, predicted_labels, predicted_scores
 
 
 def v_info(data_fn, model, null_data_fn, null_model, tokenizer, out_fn="", input_key='sentence1', input_key2='sentence2', use_lora:bool = False):
