@@ -16,6 +16,7 @@ import logging
 from datasets import load_dataset
 from transformers import AutoTokenizer
 import argparse
+from sklearn.model_selection import StratifiedShuffleSplit
 
 parser = argparse.ArgumentParser()
 
@@ -127,6 +128,28 @@ class SNLIStandardTransformation(SNLITransformation):
     def transformation(self, example):
         example['sentence1'] = f"PREMISE: {example['premise']} HYPOTHESIS: {example['hypothesis']}"
         return example
+
+class CallMeSexistButTransformation(object):
+    def __init__(self, output_dir, input_dir):
+        self.output_dir = output_dir
+        self.input_dir = input_dir
+    
+    def transform(self):
+        df = pd.read_csv(os.path.join(self.input_dir, "sexism_data.csv"))
+        df['numeric_labels'] = df['sexist'].map({False: 0, True: 1})
+        X = df[['text']]
+        y = df[['numeric_labels']]
+        splitter = StratifiedShuffleSplit(n_splits = 1, test_size = 0.2, random_state = 42) # For reproducing experiments
+        for train_indices, test_indices in splitter.split(X, y):
+            X_train = X.loc[train_indices]
+            X_test = X.loc[test_indices]
+            y_train = y.loc[train_indices]
+            y_test = y.loc[test_indices]
+        train_df = pd.concat([X_train, y_train], axis = 1).reset_index(drop = True)
+        test_df = pd.concat([X_test, y_test], axis = 1).reset_index(drop = True)
+        train_df.to_csv(os.path.join(self.output_dir, "sexist_data_train.csv"), index = False)
+        test_df.to_csv(os.path.join(self.output_dir, "sexist_data_test.csv"), index = False)  
+        return "Done"
 
 
 class SNLINullTransformation(SNLITransformation):
@@ -363,7 +386,7 @@ if __name__ == "__main__":
     parser.add_argument('--raw_data_dir', help='raw_data directory', required=True, type=str)
     args = parser.parse_args()
     data_dir = args.raw_data_dir
-
+    
     SNLIStandardTransformation(data_dir).transform()
     SNLINullTransformation(data_dir).transform()
     SNLIHypothesisOnlyTransformation(data_dir).transform()
@@ -383,7 +406,7 @@ if __name__ == "__main__":
    
     MultiNLIStandardTransformation(data_dir).transform()
     MultiNLINullTransformation(data_dir).transform()
-
+    CallMeSexistButTransformation(data_dir, data_dir).transform()
 
     for suffix in ['_b', '_c', '_d', '_e']:
         SNLIStandardTransformation(f'{data_dir}/frac', train_size=0.99, suffix=suffix).transform()
